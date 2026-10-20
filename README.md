@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <b>Русский</b> · <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
   <b>Своя портативная консоль. Свой корпус. Большая любовь к маленьким играм.</b><br>
   RP2040 · Game Boy / Game Boy Color · 3D-печатный корпус · Сделано на энтузиазме
 </p>
