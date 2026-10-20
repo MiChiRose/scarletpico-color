@@ -101,6 +101,6 @@
 <text x="1154" y="851" class="small">4,20 В → около 2,10 В</text>
 <text x="1154" y="890" class="small" style="fill:#c63353">Не 5V и не контакт 3V3.</text>
 <text x="55" y="1005" class="label">Питание — отдельная схема. Общая земля сигналов: защищённый OUT− TP4056.</text>
-<text x="55" y="1048" class="small">SD питается от 3V3; питание конкретного TFT и его BL/IM проверить по модулю.</text>
+<text x="55" y="1048" class="small">3V3 RP2040-Zero → VCC экрана и microSD. Обвязка BL/IM зависит от конкретного TFT-модуля.</text>
 <text x="55" y="1085" class="small">GP16–25 не требуются. GP26–28 заняты кнопками. Зарядные CHRG/STDBY к MCU не подключены.</text>
 </svg>
