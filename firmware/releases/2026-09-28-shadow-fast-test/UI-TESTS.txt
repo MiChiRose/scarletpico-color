@@ -1,0 +1,37 @@
+PASS ARM: patched APU dispatch, original non-APU memory, ABI/stack preservation, PCM boundaries
+PASS ARM: frame/render passthrough, clock divider, underflow silence, stop/relaunch/resource reuse
+PASS assembled PIO: 16-bit slots, MSB order, I2S one-bit WS delay, 32 BCLK/64 cycles per stereo frame
+PASS ARM: persisted defaults, PWM GP10/slice5, brightness clamp 10..100, no CPU clock writes
+PASS ARM: settings input/debounce, one save on exit, exact reserved sector, reboot restores volume
+PASS ARM: actual original mixer at mute/50%/100%, signed stereo-to-mono gain
+PASS ARM: actual inline input hook ABI and condition flags; game controls untouched
+PASS ARM: no-card boot, failed retry, successful retry; no endless redraw or writes
+PASS ARM: original ROM loader, exact data/cache layout, animated erase/read, correct SPI handoff
+PASS ARM: cached ROM load is read-only, no artificial delay
+PASS ARM: original main loop navigates games, opens settings, returns without auto-launch, then launches selected game
+PASS About: actual vs selected CPU, version, RU/EN, five-row wrap, A/Start/Right/B, release latch, no idle redraw or writes
+PASS settings: five rows, dirty rectangles, RU/EN, persistent 125/170/200, default/invalid record fallback, real PLL feasibility
+PASS LCD-only HUD: actual patched worker call, LCD independent of EMU, 0..999 clamp, fixed-width overwrite, unchanged counter/render/APU
+PASS boot: clipped/centred capsule, no trails, one full clear, 1.8 s descent, Start skip/release, missing-card recovery, core/APU untouched
+PASS chime: actual ARM synthesis + unchanged mixer at 0/50/100%, 11520 frames, longer decay + silent tail, scratch guards, bounded DMA/start failure, audio shutdown
+PASS real Zelda core: snapshot + CPU/VRAM/WRAM/RAM/APU restore + deterministic input/PCM replay
+PASS 5 slots, alternating generations, CRC fallback, all injected I/O failures/OOM, original valid generation preserved
+PASS pause chord timing, release latch, pause/resume audio+video boundary, original clean exit jump ABI
+PASS 2 MiB ROM: exact resident image, no flash overflow, tail/cache/bounds, warm cache, handle cleanup
+PASS failed ROM preparation cleanup and unchanged original Fastload path for small ROMs
+PASS real paged ARM ROM + state replay: Pokemon - Silver Version (UE) [C][!].gbc size 2097152 RAM 32768
+PASS paged I/O failure: original core escape, no fabricated ROM bytes
+PASS real paged ARM ROM + state replay: Pokemon - Crystal Version (UE) (V1.1) [C][!].gbc size 2097152 RAM 32768
+PASS paged I/O failure: original core escape, no fabricated ROM bytes
+PASS real paged ARM ROM + state replay: Wario Land 3 (JU) (M2) [C][!].gbc size 2097152 RAM 32768
+PASS paged I/O failure: original core escape, no fabricated ROM bytes
+PASS feature tests: peak mocked dynamic RAM 129648 bytes; observed mocked stack 2040 bytes; physical SD timing/FPS not measured
+FIRMWARE_SHA256 98b80f2827d626e697b83034d426b77e5fe028e1792f30edaec50a80ab963089
+PASS PACED + real feature pause/resume: refreshed first frame, debt reset, next no-pixel frame still generates original fractional audio, clean stop
+FIRMWARE_SHA256 98b80f2827d626e697b83034d426b77e5fe028e1792f30edaec50a80ab963089
+PASS pause page: five RU/EN rows fit, selection-only repaint, text/accent contrast >=4.5
+CHECK live pause -> settings -> volume/brightness -> held B -> resume
+PASS live settings: real Zelda core/APU/save RAM/fraction unchanged, 60% gain and 90% PWM, one safe settings-sector write, release latch, focus retained, no clock writes, fresh first frame, pacer debt reset
+PASS real RU in-game settings: held-key repeats, volume 0..100, brightness 10..100, persisted config, unchanged core, no-op exit does not write flash
+PASS new five-row pause navigation: Start opens settings, B release, UP wraps to library, exit cancel/confirm and original clean-exit bridge
+FIRMWARE_SHA256 98b80f2827d626e697b83034d426b77e5fe028e1792f30edaec50a80ab963089

@@ -1,0 +1,4 @@
+# Versions used for the 2.2.7 ARM regression tests; no board/USB access.
+unicorn==2.1.4
+pyelftools==0.33
+capstone==5.0.9

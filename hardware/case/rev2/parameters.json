@@ -1,0 +1,42 @@
+{
+  "revision": "R2 FIT CHECK",
+  "cap_protrusion": 2.2,
+  "dpad_protrusion": 2.4,
+  "cap_flange_front": 3.0,
+  "cap_flange_thickness": 1.1,
+  "cap_stem_tip": 5.75,
+  "retainer_front": 4.85,
+  "retainer_thickness": 3.0,
+  "retainer_mounts": [[10.5,96.5],[92.5,84],[10.5,113],[92.5,113],[55,77],[55,105]],
+  "middle_case_mounts": [[5,75],[98,75]],
+  "screw_length": 6,
+  "screw_diameter": 2,
+  "clearance_diameter": 2.3,
+  "pilot_diameter": 1.7,
+  "charger_user_dimensions": [27,17,1],
+  "charger_rotated_xy": [17,27],
+  "charger_bay_xy": [19,29],
+  "charger_center": [85.5,48],
+  "diode_reserve_origin": [70,19,12],
+  "speaker_mounts": [[56,129],[56,139],[95,129]],
+  "speaker_cap_front": 8.0,
+  "speaker_cap_thickness": 2.6,
+  "lcd_mounts": [[12,7],[91,7],[12,74],[91,74]],
+  "lcd_clip_seat": 10.3,
+  "lcd_clip_thickness": 3.0,
+  "lcd_clip_toe_front": 10.15,
+  "lcd_shoe_thicknesses": [0.5,1,1.5,2,2.5,3],
+  "side_decor": {
+    "enabled": true,
+    "centers_y": [100,105,110],
+    "radius": 1.1,
+    "depth": 0.35,
+    "z_range": [5,22]
+  },
+  "notes": [
+    "All physical tactile switches have identical height, confirmed by user.",
+    "User confirmed the purchased fasteners are marked M2 x 6 mm self-tapping for plastic; the old hole fit is satisfactory.",
+    "The full LCD module is 8 mm thick; the bare rear PCB plane at the four clip toes is NOT separately measured. Optional captured shims adjust this contact plane without changing screw tightening.",
+    "Geometry validation is not a printed fit, force, speaker excursion or structural load test."
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "status": "ONE BROAD CONNECTED PLATE / CAD CHECKED / PHYSICAL TEST REQUIRED",
+  "file": "00-RECTANGULAR-SYMMETRIC-DPAD-RETAINER.stl",
+  "bodies": 1,
+  "watertight": true,
+  "dimensions_mm": [
+    89.0,
+    50.0,
+    3.0
+  ],
+  "volume_cm3": 8.248,
+  "added_static_volume_cm3": 4.892,
+  "removed_loose_sheet_island_volume_mm3": 0.0,
+  "sha256": "7bf74e89e761c2b9084acd01dd150cbb5c1e1cdc2674ec5cafa9ecb2ef3c9d1a",
+  "outline": "STRICT old R2 70 x 50 mm main rectangle and lateral ears; no other protrusions",
+  "outside_old_outline_volume_mm3": 9e-06,
+  "dpad_central_pivot_unchanged": true,
+  "dpad_four_windows_quarter_turn_symmetric": true,
+  "dpad_through_window_areas_mm2": [
+    84.5102,
+    84.5102,
+    84.5102,
+    84.5102
+  ],
+  "exported_dpad_through_window_areas_mm2": [
+    84.5102,
+    84.5102,
+    84.5102,
+    84.5102
+  ],
+  "exported_max_rotated_section_area_residual_mm2": 8.55e-05,
+  "dpad_material_removed_to_enlarge_windows_mm3": 46.0478,
+  "dpad_symmetry_method": "union of prior voids under rotations 0/90/180/270 degrees; smaller openings enlarged, not larger openings filled",
+  "dpad_extra_through_slit_closed_at_rear": true,
+  "unnecessary_mount_annular_slits_removed": true,
+  "working_leaf_geometry_unchanged": [
+    "B",
+    "START",
+    "SELECT"
+  ],
+  "A_leaf_change": {
+    "roots_xy_mm": [
+      [
+        74,
+        74.4
+      ],
+      [
+        82.8,
+        74.4
+      ]
+    ],
+    "shape": "straight",
+    "developed_length_mm": 8.3,
+    "thickness_mm": 0.8,
+    "reason": "old straight spring roots protruded above the rectangle"
+  },
+  "leaf_thickness_mm": 0.8,
+  "platform_thickness_mm": 1.2,
+  "additional_slot_clearance_mm": 0.6,
+  "fixed_sheet_thickness_mm": 3,
+  "preload_mm": 0.15,
+  "cap_stop_travel_mm": 0.65,
+  "six_mounts_xy_mm": {
+    "DPAD": [
+      [
+        10.5,
+        96.5
+      ],
+      [
+        55,
+        77
+      ]
+    ],
+    "AB": [
+      [
+        92.5,
+        84
+      ],
+      [
+        55,
+        105
+      ]
+    ],
+    "SS": [
+      [
+        10.5,
+        113
+      ],
+      [
+        92.5,
+        113
+      ]
+    ]
+  },
+  "screw": "six original M2 x 6; same 3 mm grip",
+  "caps_reprint_required": false,
+  "front_changed": false,
+  "dpad_preload_insert_included": false,
+  "print_orientation": "front down; already oriented; Raft 0",
+  "support_note": "Local manual supports under D-pad central X/fulcrum only; no support under four thin spring mechanisms.",
+  "checks": [
+    "single watertight connected STL, readback geometry verified",
+    "strict old rectangular/ear envelope checked before and after STL export",
+    "B/Start/Select working springs unchanged; A rerouted inside rectangle",
+    "four equal through-window areas and quarter-turn symmetry before and after STL export",
+    "D-pad windows only enlarged; central fulcrum unchanged",
+    "all 6 screw seats identical and screw heads clear",
+    "all 6 surrounding mounting annuli filled except actual spring slots",
+    "D-pad artificial through-slit closed at rear; rocked flange clearance verified",
+    "15 sampled press positions per cap; working spring clearance and hard stops",
+    "nominal D-pad cardinal and diagonal rocking",
+    "current front, prior front, LCD clips, PCB, tacts and speaker clearance",
+    "pre-existing STL hashes unchanged"
+  ],
+  "limitations": [
+    "Straight A leaves have an 8.3 mm span instead of 10.3 mm; they may feel firmer at the same 0.8 mm thickness.",
+    "Physical fit and return require a printed test with PCB fixed at nominal height."
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "source_sha256": "692a06aeea11e97b0b03f29418703e024ac91deaeb26f0e9a2eebc05e8e07907",
+  "output_sha256": "40063b38b3413c9fd7ed7c0aebe92ad59f0942546a2292b3efb527b626d8c9ee",
+  "modified_original_bytes": 193,
+  "ui_ram_bytes": 992,
+  "ui_flash_bytes": 9228,
+  "settings_sector": "0x7f000..0x7ffff",
+  "rom_cache": "0x80000",
+  "core_byte_identical": true,
+  "clocks_byte_identical": true,
+  "changes": [
+    {
+      "address": "0x10007890",
+      "before": "f9f7eef9",
+      "after": "29f01cfe",
+      "purpose": "ui_boot_bridge"
+    },
+    {
+      "address": "0x10007b24",
+      "before": "02242c42",
+      "after": "29f0c9fc",
+      "purpose": "Menu-only input filter; preserves original B-test flags"
+    },
+    {
+      "address": "0x10007a34",
+      "before": "26f064f9",
+      "after": "29f0eefc",
+      "purpose": "ui_menu_full"
+    },
+    {
+      "address": "0x10007c56",
+      "before": "26f053f8",
+      "after": "29f0ddfb",
+      "purpose": "ui_menu_full"
+    },
+    {
+      "address": "0x10007c9e",
+      "before": "26f02ff8",
+      "after": "29f0b9fb",
+      "purpose": "ui_menu_full"
+    },
+    {
+      "address": "0x10007b50",
+      "before": "26f0fef9",
+      "after": "29f065fc",
+      "purpose": "ui_menu_update"
+    },
+    {
+      "address": "0x1002ec88",
+      "before": "32230400",
+      "after": "02f026fc",
+      "purpose": "Replace only fixed 50% PCM gain load with validated setting; mixer/APU unchanged"
+    },
+    {
+      "address": "0x1000773c",
+      "before": "f9f7f2fd",
+      "after": "29f0b8fb",
+      "purpose": "ui_legacy_clear"
+    },
+    {
+      "address": "0x1000774c",
+      "before": "f9f7d8fe",
+      "after": "29f0c4fb",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007760",
+      "before": "f9f7cefe",
+      "after": "29f0bafb",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007774",
+      "before": "f9f7c4fe",
+      "after": "29f0b0fb",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x100077d0",
+      "before": "f9f7a8fd",
+      "after": "29f06efb",
+      "purpose": "ui_legacy_clear"
+    },
+    {
+      "address": "0x100077e4",
+      "before": "f9f78cfe",
+      "after": "29f078fb",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x100077f4",
+      "before": "f9f784fe",
+      "after": "29f070fb",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007806",
+      "before": "f9f77bfe",
+      "after": "29f067fb",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x1000794c",
+      "before": "f9f7eafc",
+      "after": "29f0b0fa",
+      "purpose": "ui_legacy_clear"
+    },
+    {
+      "address": "0x1000795e",
+      "before": "f9f7cffd",
+      "after": "29f0bbfa",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x1000796e",
+      "before": "f9f7c7fd",
+      "after": "29f0b3fa",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007980",
+      "before": "f9f7befd",
+      "after": "29f0aafa",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x100079b2",
+      "before": "f9f7b7fc",
+      "after": "29f07dfa",
+      "purpose": "ui_legacy_clear"
+    },
+    {
+      "address": "0x100079c8",
+      "before": "f9f79afd",
+      "after": "29f086fa",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x100079e0",
+      "before": "f9f78efd",
+      "after": "29f07afa",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x100079f6",
+      "before": "f9f783fd",
+      "after": "29f06ffa",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007a16",
+      "before": "00f005fd",
+      "after": "29f007fd",
+      "purpose": "ui_scan_games"
+    },
+    {
+      "address": "0x10007bf0",
+      "before": "f9f798fb",
+      "after": "29f05ef9",
+      "purpose": "ui_legacy_clear"
+    },
+    {
+      "address": "0x10007c00",
+      "before": "f9f77efc",
+      "after": "29f06af9",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007c14",
+      "before": "f9f774fc",
+      "after": "29f060f9",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007c26",
+      "before": "f9f76bfc",
+      "after": "29f057f9",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007c3c",
+      "before": "00f0f2fb",
+      "after": "29f0f4fb",
+      "purpose": "ui_scan_games"
+    },
+    {
+      "address": "0x10007d9e",
+      "before": "f9f7c1fa",
+      "after": "29f087f8",
+      "purpose": "ui_legacy_clear"
+    },
+    {
+      "address": "0x10007db2",
+      "before": "f9f7a5fb",
+      "after": "29f091f8",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007dc4",
+      "before": "f9f79cfb",
+      "after": "29f088f8",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007dd8",
+      "before": "f9f792fb",
+      "after": "29f07ef8",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007e10",
+      "before": "f9f788fa",
+      "after": "29f04ef8",
+      "purpose": "ui_legacy_clear"
+    },
+    {
+      "address": "0x10007e24",
+      "before": "f9f76cfb",
+      "after": "29f058f8",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007e34",
+      "before": "f9f764fb",
+      "after": "29f050f8",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007e46",
+      "before": "f9f75bfb",
+      "after": "29f047f8",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007ebc",
+      "before": "f9f732fa",
+      "after": "28f0f8ff",
+      "purpose": "ui_legacy_clear"
+    },
+    {
+      "address": "0x10007ed2",
+      "before": "f9f715fb",
+      "after": "29f001f8",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007ee2",
+      "before": "f9f70dfb",
+      "after": "28f0f9ff",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007ef4",
+      "before": "f9f704fb",
+      "after": "28f0f0ff",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x10007f08",
+      "before": "00f0c4fa",
+      "after": "29f0a2fa",
+      "purpose": "ui_prepare_rom"
+    },
+    {
+      "address": "0x10007f92",
+      "before": "f9f7c7f9",
+      "after": "28f08dff",
+      "purpose": "ui_legacy_clear"
+    },
+    {
+      "address": "0x10008198",
+      "before": "f9f7c4f8",
+      "after": "28f08afe",
+      "purpose": "ui_legacy_clear"
+    },
+    {
+      "address": "0x100081ac",
+      "before": "f9f7a8f9",
+      "after": "28f094fe",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x100081be",
+      "before": "f9f79ff9",
+      "after": "28f08bfe",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x100081d0",
+      "before": "f9f796f9",
+      "after": "28f082fe",
+      "purpose": "ui_legacy_text"
+    },
+    {
+      "address": "0x1000853e",
+      "before": "0cf0f9fc",
+      "after": "28f097ff",
+      "purpose": "ui_rom_read"
+    },
+    {
+      "address": "0x100085fe",
+      "before": "0cf099fc",
+      "after": "28f037ff",
+      "purpose": "ui_rom_read"
+    },
+    {
+      "address": "0x10008586",
+      "before": "17f043ff",
+      "after": "28f07fff",
+      "purpose": "ui_rom_erase"
+    },
+    {
+      "address": "0x10000270",
+      "before": "f8f30120",
+      "after": "d8f70120",
+      "purpose": "Reserve/initialize UI BSS without touching existing audio state"
+    },
+    {
+      "address": "0x1000d124",
+      "before": "f8f30120",
+      "after": "d8f70120",
+      "purpose": "Reserve/initialize UI BSS without touching existing audio state"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "17fe0210",
+      "after": "0c230310",
+      "purpose": "Complete firmware length"
+    }
+  ]
+}

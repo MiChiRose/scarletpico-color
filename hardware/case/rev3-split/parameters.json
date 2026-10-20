@@ -1,0 +1,24 @@
+{
+  "revision": "R3 SPLIT / FIT CHECK",
+  "rear_split_y": [55.0,71.0],
+  "seam_gap": 0.2,
+  "upper_extra_mounts_xy": [[3.8,51],[99.2,51]],
+  "transition_mounts_xy": [[3.8,64],[99.2,64]],
+  "boss_diameter": 5.4,
+  "boss_root_z": 10.5,
+  "pilot_diameter": 1.7,
+  "new_pilot_depth": 5.0,
+  "rear_clearance_diameter": 2.3,
+  "transition_head_spot_diameter": 5.0,
+  "transition_head_spot_depth": 0.15,
+  "connector_mount_passage_diameter": 2.1,
+  "screw_under_head_length": 6.0,
+  "notes": [
+    "Each rear section fastens directly to the new front. No glue or separate seam joining plates.",
+    "Upper and lower sections print with their respective flat exterior faces on the bed.",
+    "Transition prints on its upper transverse cut end, Y=55.1, with a brim. Its broad curved outside is no longer a support-contact surface.",
+    "TP4056 locating bay crosses the upper joint; the battery bay does not. Assemble the sections and check the bay before seating the charger PCB.",
+    "Only the connector FASTENER passages shrink. USB-C body opening, flange pocket, adjustable hole pitch and switch actuator opening stay unchanged.",
+    "CAD checks are not physical fit, PETG strength, screw torque or printer validation."
+  ]
+}

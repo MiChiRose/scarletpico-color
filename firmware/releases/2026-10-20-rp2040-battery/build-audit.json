@@ -1,0 +1,21 @@
+{
+  "version": "2.2.4-RP2040-battery-test",
+  "hardware_tested": false,
+  "automatically_flashed": false,
+  "monitor_default": "OFF; explicit hardware confirmation, persisted extension at settings byte 16",
+  "uf2_family": "e48bff56",
+  "uf2_sha256": "73e81ac4b093ea09859d1ebe50f7afd1f4124886a6e7c68abea286c1f5dd07e0",
+  "rollback_path": "releases/2026-10-07-rp2040-native-menu/02-ScarletPico-v2_2_3-RP2040-NATIVE-TEST.uf2",
+  "rollback_sha256": "637a11d8d6e786dbbe4de8b70cbf2356b50ec493a75468bf86ca9a53c9a00a03",
+  "compiler": "arm-none-eabi-gcc (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623",
+  "flash_end": "0x10022efc",
+  "bss_end": "0x20039580",
+  "heap_remaining_bytes": 27264,
+  "sense_pins": {
+    "adc": 29,
+    "isolated_charge_active_low": 18,
+    "isolated_done_active_low": 19
+  },
+  "kernel_sha256": "6244f56ee63933987b4bbfb7401c1ddef9d8e2610b9a78a882776e785631e551",
+  "display_sha256": "fa8d6c6167a35820bb78c5b8d1790ffe228190eda3fddfcf0a5acb31285af8b4"
+}

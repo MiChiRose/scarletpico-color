@@ -1,0 +1,75 @@
+{
+  "source_sha256": "6d8dda2c26f1f909d47b913bcf5ad6caa92777a89fa3842916fbfc8edb88aad2",
+  "output_sha256": "692a06aeea11e97b0b03f29418703e024ac91deaeb26f0e9a2eebc05e8e07907",
+  "modified_original_bytes": 37,
+  "audio_ram_bytes": 4500,
+  "audio_flash_bytes": 5655,
+  "volume_percent": 50,
+  "pcm_sample_rate": 16000,
+  "original_menu_byte_identical": true,
+  "changes": [
+    {
+      "address": "0x100027ca",
+      "length": 18,
+      "before": "174b40189c46274b60440078cb5c1843fae6",
+      "after": "08462df068f810bd084611462df079f85fe0",
+      "purpose": "APU register read/write dispatch only; non-audio memory paths unchanged"
+    },
+    {
+      "address": "0x10002974",
+      "length": 2,
+      "before": "54e2",
+      "after": "2de7",
+      "purpose": "APU-only write branch"
+    },
+    {
+      "address": "0x1000809c",
+      "length": 4,
+      "before": "fef7e8ff",
+      "after": "26f0b2fe",
+      "purpose": "Call original frame, then generate PCM, without changing render choice/pacing"
+    },
+    {
+      "address": "0x10007cd0",
+      "length": 4,
+      "before": "01f008f8",
+      "after": "27f0d0f8",
+      "purpose": "Stop audio before original video-stop/menu/flash transition"
+    },
+    {
+      "address": "0x100082ac",
+      "length": 4,
+      "before": "00f01afd",
+      "after": "26f0e2fd",
+      "purpose": "Stop audio before original video-stop/menu/flash transition"
+    },
+    {
+      "address": "0x100082fc",
+      "length": 4,
+      "before": "00f0f2fc",
+      "after": "26f0bafd",
+      "purpose": "Stop audio before original video-stop/menu/flash transition"
+    },
+    {
+      "address": "0x10000270",
+      "length": 4,
+      "before": "64e20120",
+      "after": "f8f30120",
+      "purpose": "Zero audio BSS at boot / reserve it outside original heap"
+    },
+    {
+      "address": "0x1000d124",
+      "length": 4,
+      "before": "64e20120",
+      "after": "f8f30120",
+      "purpose": "Zero audio BSS at boot / reserve it outside original heap"
+    },
+    {
+      "address": "0x100223a0",
+      "length": 4,
+      "before": "50d90210",
+      "after": "17fe0210",
+      "purpose": "Report complete firmware size to picotool, including addon"
+    }
+  ]
+}

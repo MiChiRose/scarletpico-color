@@ -1,0 +1,45 @@
+{
+  "version": "2.2.2-video16-2x-test",
+  "source_sha256": "5137a17385011e5997287db167d46d5a82c1ca36e705bad970f265b07eb7e81a",
+  "output_sha256": "2a03ebfd50fa2c5dfc0f8c8505121b20e0a1bc1a2eca6cef5494fe907ad87124",
+  "changes": [
+    {
+      "address": "0x10007fa2",
+      "before": "0520",
+      "after": "0420",
+      "purpose": "Game launch selects exact 2x"
+    },
+    {
+      "address": "0x1003439a",
+      "before": "0520",
+      "after": "0420",
+      "purpose": "Pause/state resume retains exact 2x"
+    },
+    {
+      "address": "0x10008334",
+      "before": "0520",
+      "after": "0420",
+      "purpose": "PERF reports actual 320x288 mode"
+    }
+  ],
+  "additional_flash_bytes": 0,
+  "additional_ram_bytes": 0,
+  "changed_payload_bytes": 3,
+  "native_size": [
+    160,
+    144
+  ],
+  "output_size": [
+    320,
+    288
+  ],
+  "offset": [
+    80,
+    16
+  ],
+  "pixels_per_full_update": 92160,
+  "bytes_per_full_update": 184320,
+  "reduction_from_fit_height_percent": 19.10112359550562,
+  "original_video16_driver_audio_menu_clocks_preserved": true,
+  "physical_fps_not_yet_measured": true
+}

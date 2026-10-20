@@ -1,0 +1,32 @@
+{
+  "version": "2.2.2-shadow-fast-test",
+  "source_sha256": "1d1533f76eed256e7b81cc45b78b0afd9852689795fa6f51a58b510a99de2821",
+  "output_sha256": "98b80f2827d626e697b83034d426b77e5fe028e1792f30edaec50a80ab963089",
+  "changes": [
+    {
+      "address": "0x100089a2",
+      "before": "2df01bf9",
+      "after": "2ef0f5ff",
+      "purpose": "video_shadow_fast_seed"
+    },
+    {
+      "address": "0x1003588e",
+      "before": "00f0bbf9",
+      "after": "02f0e5f8",
+      "purpose": "video_shadow_fast_changed"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "34770310",
+      "after": "a0830310",
+      "purpose": "Image end metadata"
+    }
+  ],
+  "appended_code": 2976,
+  "added_static_ram": 0,
+  "added_heap_bytes": 0,
+  "cache_format_and_region_policy_unchanged": true,
+  "full_height_356x320": true,
+  "core_audio_ui_clocks_pacing_dma_unchanged": true,
+  "physical_fps_not_yet_measured": true
+}

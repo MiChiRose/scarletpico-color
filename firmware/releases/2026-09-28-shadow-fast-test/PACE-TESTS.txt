@@ -1,0 +1,17 @@
+PASS real main ABI: success/failure, deadline skip, no phantom submit, pending-buffer preservation, busy worker, forced pause refresh, stack and live registers
+PASS timer-low wrap and new-session reset
+MODEL raw render 11000 skip 4000 draws 899 EMU 59.74922453805053 underruns 9 steady 4 dropped 0
+MODEL ONLY render_us 11000 skip_us 4000 EMU 59.75 draws 899 steady_underruns 4
+MODEL raw render 18800 skip 5500 draws 711 EMU 59.71015100431811 underruns 9 steady 2 dropped 0
+MODEL ONLY render_us 18800 skip_us 5500 EMU 59.71 draws 711 steady_underruns 2
+MODEL raw render 25000 skip 8000 draws 449 EMU 59.72837922264709 underruns 8 steady 3 dropped 0
+MODEL ONLY render_us 25000 skip_us 8000 EMU 59.73 draws 449 steady_underruns 3
+MODEL raw render 38000 skip 12000 draws 90 EMU 59.50010786047331 underruns 91 steady 78 dropped 0
+MODEL ONLY render_us 38000 skip_us 12000 EMU 59.5 draws 90 steady_underruns 78
+MODEL raw render 21000 skip 18000 draws 71 EMU 54.834582343264486 underruns 253 steady 218 dropped 0
+MODEL ONLY render_us 21000 skip_us 18000 EMU 54.83 draws 71 steady_underruns 218
+PASS workload adaptation: all game/audio ticks retained; fast scenes uncapped; overloaded logic is not misreported as full speed
+PASS costly scenes resume drawing after timing recovery
+PASS real audio enqueue wrapper: exact PCM pointer/count, startup/inactive bypass, stalled-DMA timeout, timer and ring-counter wrap
+PASS telemetry ABI, actual clock/audio counters, interval reset
+FIRMWARE_SHA256 98b80f2827d626e697b83034d426b77e5fe028e1792f30edaec50a80ab963089

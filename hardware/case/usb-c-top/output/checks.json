@@ -1,0 +1,185 @@
+{
+  "status": "MECHANICAL FIT-CHECK DRAFT; connector dimensions partly provisional",
+  "parameters": {
+    "name": "ScarletPico top USB-C / outside flange / adjustable M2 carrier",
+    "units": "mm",
+    "flange_user_measured": [
+      20,
+      6,
+      1
+    ],
+    "port_center_xz": [
+      51.5,
+      15.0
+    ],
+    "pocket_clearance_per_side": 0.2,
+    "pocket_depth": 1.0,
+    "top_wall_inner_y": 3.0,
+    "connector_through_opening_xz": [
+      10.4,
+      4.4
+    ],
+    "connector_body_reserved_xyz": [
+      10.4,
+      12,
+      4.4
+    ],
+    "connector_reserve_front_y": 0.0,
+    "mount_hole_pitch_range": [
+      15.5,
+      17.0
+    ],
+    "mount_passage_diameter": 2.3,
+    "mount_holes_assumed_centered_on_flange_height": true,
+    "carrier_size_xyz": [
+      26,
+      4.8,
+      8.4
+    ],
+    "carrier_front_lip": 0.6,
+    "slider_size_xyz": [
+      3.8,
+      4.0,
+      4.6
+    ],
+    "slider_sliding_clearance_per_side": 0.2,
+    "slider_pilot_diameter": 1.7,
+    "slider_pilot_depth": 3.4,
+    "screw_under_head_length": 6.0,
+    "screw_nominal_diameter": 2.0,
+    "lanyard_lug": {
+      "type": "internal_corner_tunnel",
+      "edge": "bottom",
+      "entrance_centers_x": [
+        10.0,
+        19.0
+      ],
+      "entrance_center_z": 15.0,
+      "hole_diameter": 4.0,
+      "anchor_center_xy": [
+        14.5,
+        3.5
+      ],
+      "anchor_diameter": 4.4,
+      "guard_outer_xywh": [
+        7.0,
+        2.8,
+        15.0,
+        6.9
+      ],
+      "guard_wall_thickness": 1.2,
+      "z_range": [
+        2.8,
+        27.2
+      ],
+      "entrance_chamfer": 0.3
+    },
+    "measurements_still_required": [
+      "Only the flange 20 x 6 x 1 and presence of two holes were measured by the user.",
+      "Actual hole pitch must be within 15.5..17 mm; holes assumed on the flange horizontal centre line.",
+      "Actual USB metal body, any rear PCB, solder and wire bends must fit the reserved envelope; 10.4 x 12 x 4.4 is a design allowance, not a product measurement.",
+      "Socket mouth must reach the flange outside face; real cable boot/insertion clearance still requires a fit check.",
+      "Existing flange holes must pass the chosen M2 fasteners without damaging PCB traces; their diameter is not known."
+    ]
+  },
+  "flange_outside_face_y": 0.0,
+  "recess_xz_mm": [
+    20.4,
+    6.4
+  ],
+  "recess_depth_mm": 1.0,
+  "remaining_recess_floor_mm": 2.0,
+  "case_envelope_unchanged": true,
+  "main_case_envelope_unchanged": true,
+  "lanyard_lug": {
+    "position": "bottom-left margin, two recessed end-wall entrances",
+    "hole_diameter_mm": 4.0,
+    "anchor_diameter_mm": 4.4,
+    "guard_z_range_mm": [
+      2.8,
+      27.2
+    ],
+    "protrusion_beyond_case_mm": 0,
+    "guard_assembly_bounds_mm": [
+      [
+        7.0,
+        140.3,
+        2.8
+      ],
+      [
+        22.0,
+        148.7,
+        27.2
+      ]
+    ],
+    "root_overlap_volume_mm3": 258.147,
+    "component_envelopes_clear": true,
+    "case_envelope_unchanged": true,
+    "load_rating_physically_tested": false
+  },
+  "screw_thread_engagement_mm": 2.4,
+  "screw_tip_to_pilot_bottom_mm": 1.0,
+  "hole_pitches_checked_mm": [
+    15.5,
+    15.75,
+    16.0,
+    16.25,
+    16.5,
+    16.75,
+    17.0
+  ],
+  "carrier_min_clearance_from_lcd_z_mm": 0.8,
+  "connector_reserve_to_battery_y_mm": 5.5,
+  "compatible_rear": "../variable-depth/output/rear-variable-DRAFT.stl",
+  "rear_and_button_parts_unchanged": true,
+  "parts": [
+    {
+      "file": "front-top-usbc-DRAFT.stl",
+      "dimensions_mm": [
+        103.0,
+        150.0,
+        28.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "sha256": "9d75c709452aa1d5183613ad184742b765de4a2051fa03ec0d067e59ffcf60c6",
+      "print_orientation": "front face down; review slicer supports"
+    },
+    {
+      "file": "usb-c-carrier-DRAFT.stl",
+      "dimensions_mm": [
+        26.0,
+        8.4,
+        4.8
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "sha256": "fdebbc896e85541ca85e7c48d85c35e40f36e9c0b273cebbf08bc9a80e31d31c",
+      "print_orientation": "front lip down; open rear pockets upwards"
+    },
+    {
+      "file": "usb-c-slider-PRINT-TWO.stl",
+      "dimensions_mm": [
+        3.8,
+        4.6,
+        4.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "sha256": "a2e4ec5ed769f242f071ba23c017d9feb6d03ee63e110eb9d28f7a58d1386775",
+      "print_orientation": "closed rear face down; blind pilot open upwards"
+    },
+    {
+      "file": "usb-c-fit-sample-OPTIONAL.stl",
+      "dimensions_mm": [
+        26.0,
+        8.4,
+        2.997
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "sha256": "167a3e9a87dfaca5584d66e79f03d2e1f3eb529e7970bbbb53fa6c47bacca75f",
+      "print_orientation": "flat inner wall side down; outside recess upwards"
+    }
+  ]
+}

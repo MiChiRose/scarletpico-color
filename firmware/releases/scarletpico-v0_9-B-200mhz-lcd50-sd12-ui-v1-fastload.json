@@ -1,0 +1,50 @@
+{
+  "source_sha256": "40063b38b3413c9fd7ed7c0aebe92ad59f0942546a2292b3efb527b626d8c9ee",
+  "output_sha256": "57bdbaaa2bedebf3797e103f4fa80e2ff975e481b9504b6bb276bbaa6c6f1964",
+  "modified_original_bytes": 11,
+  "appended_flash_bytes": 332,
+  "added_static_ram_bytes": 16,
+  "temporary_read_buffer_bytes": 4096,
+  "core_audio_video_ui_clocks_byte_identical": true,
+  "rom_cache_offset": "0x80000",
+  "rom_data_offset": "0x81000",
+  "settings_offset": "0x7f000",
+  "changes": [
+    {
+      "address": "0x10007f08",
+      "before": "29f0a2fa",
+      "after": "2af004fb",
+      "purpose": "loader_prepare"
+    },
+    {
+      "address": "0x1000853e",
+      "before": "28f097ff",
+      "after": "29f077ff",
+      "purpose": "loader_header_read"
+    },
+    {
+      "address": "0x100085fe",
+      "before": "28f037ff",
+      "after": "29f025ff",
+      "purpose": "loader_page_read"
+    },
+    {
+      "address": "0x10000270",
+      "before": "d8f70120",
+      "after": "e8f70120",
+      "purpose": "Reserve 16 bytes loader state; temporary read buffer is freed"
+    },
+    {
+      "address": "0x1000d124",
+      "before": "d8f70120",
+      "after": "e8f70120",
+      "purpose": "Reserve 16 bytes loader state; temporary read buffer is freed"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "0c230310",
+      "after": "4c250310",
+      "purpose": "Firmware end metadata"
+    }
+  ]
+}

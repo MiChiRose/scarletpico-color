@@ -1,0 +1,214 @@
+{
+  "revision": "R2 FIT CHECK",
+  "status": "CAD CHECKED / PHYSICAL FIT NOT YET TESTED",
+  "outer_size_mm": [
+    103,
+    150,
+    30
+  ],
+  "upper_depth_mm": 22,
+  "lower_depth_mm": 30,
+  "cap_free_travel_mm": 0.75,
+  "cap_to_tact_neutral_gap_mm": 0.3,
+  "protrusion_mm": {
+    "caps": 2.2,
+    "dpad": 2.4
+  },
+  "switch_travel_and_forces_measured": false,
+  "LCD_rear_PCB_contact_height_measured": false,
+  "battery_seat_preserved": true,
+  "charger_rotated_dimensions_mm": [
+    17,
+    27,
+    1
+  ],
+  "charger_bay_mm": [
+    19,
+    29,
+    4
+  ],
+  "charger_user_height_not_independently_verified": true,
+  "assembly_collision_checks": "passed",
+  "straight_rear_closure_path_checked": true,
+  "fasteners": [
+    {
+      "group": "button retainer",
+      "count": 6,
+      "screw": "M2 x 6 self-tapping for plastic",
+      "engagement_mm": 3.0,
+      "pilot_depth_mm": 3.5,
+      "bottom_margin_mm": 0.5
+    },
+    {
+      "group": "speaker cap",
+      "count": 3,
+      "screw": "M2 x 6 self-tapping for plastic",
+      "engagement_mm": 3.4,
+      "pilot_depth_mm": 3.9,
+      "bottom_margin_mm": 0.5
+    },
+    {
+      "group": "lcd clip 1",
+      "count": 1,
+      "screw": "M2 x 6 self-tapping for plastic",
+      "engagement_mm": 3.0,
+      "pilot_depth_mm": 3.5,
+      "bottom_margin_mm": 0.5
+    },
+    {
+      "group": "lcd clip 2",
+      "count": 1,
+      "screw": "M2 x 6 self-tapping for plastic",
+      "engagement_mm": 3.0,
+      "pilot_depth_mm": 3.5,
+      "bottom_margin_mm": 0.5
+    },
+    {
+      "group": "lcd clip 3",
+      "count": 1,
+      "screw": "M2 x 6 self-tapping for plastic",
+      "engagement_mm": 3.0,
+      "pilot_depth_mm": 3.5,
+      "bottom_margin_mm": 0.5
+    },
+    {
+      "group": "lcd clip 4",
+      "count": 1,
+      "screw": "M2 x 6 self-tapping for plastic",
+      "engagement_mm": 3.0,
+      "pilot_depth_mm": 3.5,
+      "bottom_margin_mm": 0.5
+    },
+    {
+      "group": "case closure",
+      "count": 6,
+      "engagement_mm": 4,
+      "pilot_depth_mm": 6,
+      "bottom_margin_mm": 2
+    }
+  ],
+  "parts": [
+    {
+      "file": "01-front-R2.stl",
+      "parts": 1,
+      "dimensions_mm": [
+        103.0,
+        150.0,
+        28.0
+      ],
+      "watertight": true,
+      "STL_readback_validated": true,
+      "sha256": "d6b523746e9fcf9b17aed1d47710ca30554d007b40f4bdd734be77b7ecff9fe6"
+    },
+    {
+      "file": "02-rear-R2.stl",
+      "parts": 1,
+      "dimensions_mm": [
+        103.0,
+        150.0,
+        12.0
+      ],
+      "watertight": true,
+      "STL_readback_validated": true,
+      "sha256": "42277447f99a324c1aa16ee2ae33b70567dcdbff399fc840e84a974694d9c600"
+    },
+    {
+      "file": "03-button-retainer-R2.stl",
+      "parts": 1,
+      "dimensions_mm": [
+        89.0,
+        50.0,
+        3.35
+      ],
+      "watertight": true,
+      "STL_readback_validated": true,
+      "sha256": "032d0894c815c7db0cf7382722ac354d4826c9450eb5cf50a795069064726a8e"
+    },
+    {
+      "file": "04-dpad-R2.stl",
+      "parts": 1,
+      "dimensions_mm": [
+        26.6,
+        26.6,
+        8.6
+      ],
+      "watertight": true,
+      "STL_readback_validated": true,
+      "sha256": "2c6e016ce9cb1297ead0027cc7ef98cb37f521eaf100e36039e4651647cc34b1"
+    },
+    {
+      "file": "05-four-caps-R2.stl",
+      "parts": 4,
+      "dimensions_mm": [
+        41.3,
+        41.2,
+        7.95
+      ],
+      "watertight": true,
+      "STL_readback_validated": true,
+      "sha256": "4c5e573ccb35ea6b02d9960f6080fb0ca58386bc7ff3925a4f581fc9e7523c77"
+    },
+    {
+      "file": "06-speaker-retainer-R2.stl",
+      "parts": 1,
+      "dimensions_mm": [
+        44.0,
+        23.2,
+        3.05
+      ],
+      "watertight": true,
+      "STL_readback_validated": true,
+      "sha256": "2c0bc20a9f7022acb5df3773e250fd1c093b5f6b0ad6a5aa57966f7cfffa7fe9"
+    },
+    {
+      "file": "07-four-LCD-clips-R2.stl",
+      "parts": 4,
+      "dimensions_mm": [
+        33.0,
+        10.8,
+        3.15
+      ],
+      "watertight": true,
+      "STL_readback_validated": true,
+      "sha256": "89cc5b9da138d9e5d8eef3e2f9dac2b7e3f1071b79a6f9858be23fafbabae001"
+    },
+    {
+      "file": "08-LCD-pad-set-OPTIONAL.stl",
+      "parts": 24,
+      "dimensions_mm": [
+        25.0,
+        38.0,
+        5.5
+      ],
+      "watertight": true,
+      "STL_readback_validated": true,
+      "sha256": "264701e64c81ac1bda83d6bb073e0ea7a2974af80f93a1a98f9e6a455cd1e5cc"
+    },
+    {
+      "file": "09-Start-Select-FIT-TEST-OPTIONAL.stl",
+      "parts": 4,
+      "dimensions_mm": [
+        106.4,
+        23.0,
+        7.95
+      ],
+      "watertight": true,
+      "STL_readback_validated": true,
+      "sha256": "67ace849551104e3f92946e071443bf519c0b458d9a0489ad1e237510726d10a"
+    }
+  ],
+  "prior_files_unchanged": true,
+  "side_decor": {
+    "per_side": 3,
+    "depth_mm": 0.35,
+    "blind": true,
+    "sampled_remaining_wall_mm": [
+      2.6473,
+      2.6473,
+      2.6473,
+      2.6473,
+      2.6473,
+      2.6473
+    ]
+  }
+}

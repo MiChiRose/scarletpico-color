@@ -1,0 +1,71 @@
+{
+  "sdk_version": "2.3.0",
+  "core_commit": "a7919bb8be099f5a0a1f85daa6a33b73519eb666",
+  "sd_driver_commit": "196016f525e5b9c161f2b965ddd3045a4ef87649",
+  "firmwares": [
+    {
+      "profile": "A",
+      "file": "firmware/scarletpico-rp2350-A-200MHz-LCD50-240x216.uf2",
+      "sha256": "2102d4890c0d6dbca182669552f78291688b700c996330e692531665ced5bed0",
+      "native_target": "RP2350 ARM Secure",
+      "board": "waveshare_rp2350_zero",
+      "cpu_mhz": 200,
+      "lcd_spi_mhz": 50,
+      "game_width": 240,
+      "game_height": 216,
+      "full_image_bytes": 103680,
+      "wire_only_fps": 60.282,
+      "loaded_ram_segments_bytes": 414912,
+      "application_uf2_blocks": 396,
+      "hardware_tested": false
+    },
+    {
+      "profile": "B",
+      "file": "firmware/scarletpico-rp2350-B-200MHz-LCD100-320x288.uf2",
+      "sha256": "168d797c856a7a8651c5a1795ac0822b303f4af3f56920f18dbf0581ddc73761",
+      "native_target": "RP2350 ARM Secure",
+      "board": "waveshare_rp2350_zero",
+      "cpu_mhz": 200,
+      "lcd_spi_mhz": 100,
+      "game_width": 320,
+      "game_height": 288,
+      "full_image_bytes": 184320,
+      "wire_only_fps": 67.817,
+      "loaded_ram_segments_bytes": 414912,
+      "application_uf2_blocks": 396,
+      "hardware_tested": false
+    },
+    {
+      "profile": "C",
+      "file": "firmware/scarletpico-rp2350-C-240MHz-LCD120-320x288.uf2",
+      "sha256": "9dfa14280200ce8dd65fc39c7a1897b38ba3999186b54e504ec03afb678a6b6e",
+      "native_target": "RP2350 ARM Secure",
+      "board": "waveshare_rp2350_zero",
+      "cpu_mhz": 240,
+      "lcd_spi_mhz": 120,
+      "game_width": 320,
+      "game_height": 288,
+      "full_image_bytes": 184320,
+      "wire_only_fps": 81.38,
+      "loaded_ram_segments_bytes": 414912,
+      "application_uf2_blocks": 396,
+      "hardware_tested": false
+    },
+    {
+      "profile": "D",
+      "file": "firmware/scarletpico-rp2350-D-200MHz-LCD100-240x216.uf2",
+      "sha256": "e58ddc931ae3d61af42ae7514bfd2f612075ec7d620ad6ef5432155be14fab35",
+      "native_target": "RP2350 ARM Secure",
+      "board": "waveshare_rp2350_zero",
+      "cpu_mhz": 200,
+      "lcd_spi_mhz": 100,
+      "game_width": 240,
+      "game_height": 216,
+      "full_image_bytes": 103680,
+      "wire_only_fps": 120.563,
+      "loaded_ram_segments_bytes": 414912,
+      "application_uf2_blocks": 396,
+      "hardware_tested": false
+    }
+  ]
+}

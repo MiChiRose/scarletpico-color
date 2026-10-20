@@ -1,0 +1,156 @@
+{
+  "status": "FIT-CHECK DRAFT / physical fit and electrical safety not validated",
+  "variant": {
+    "name": "ScarletPico / variable-depth fit-check",
+    "upper_depth": 22,
+    "lower_depth": 30,
+    "transition_start_y": 55.5,
+    "transition_end_y": 70.5,
+    "rear_normal_thickness": 2,
+    "front_edge_radius": 2.4,
+    "speaker_face_flat": true,
+    "display_measured_thickness": 8,
+    "display_front_recess_allowance": 2,
+    "battery_center": [
+      41,
+      35
+    ],
+    "charger_measured_dimensions": [
+      20,
+      15,
+      2
+    ],
+    "charger_bay_dimensions": [
+      22,
+      17,
+      4
+    ],
+    "charger_bay_center": [
+      85.5,
+      45.5
+    ],
+    "charger_rear_insulation_allowance": 0.5,
+    "switch_center_yz": [
+      23,
+      15
+    ],
+    "diode_keepout_origin": [
+      70,
+      19,
+      12
+    ],
+    "diode_keepout_size": [
+      10,
+      12,
+      8
+    ],
+    "note": "8 mm LCD is the user's full module measurement. Reserve 10 mm behind outside front, allowing 2 mm recess. TP4056 size is user-measured after USB removal, not an electrical/thermal validation. Lower button mechanism and complete 21 mm stack stay unchanged. Keep old flat-depth shell and lid as a matched pair; do not mix versions."
+  },
+  "base_source_sha256": "ee82d3f2d28047a88e2dc4ecb6f374a7ffad490536aa7d5c3a0eb0b467eea594",
+  "assembled_plastic_envelope_mm": [
+    103,
+    150,
+    30
+  ],
+  "upper_lower_depth_mm": [
+    22,
+    30
+  ],
+  "upper_depth_reduction_mm": 8,
+  "speaker_face_flat": true,
+  "speaker_front_plane_triangles_checked": 162,
+  "speaker_front_bevel_depth_mm": 0,
+  "rear_normal_thickness_min_in_taper_mm": 1.999909,
+  "rear_remaining_under_lower_grip_grooves_mm": 1.65,
+  "display_rear_reserved_z_mm": 10,
+  "display_measurement_mm": 8,
+  "battery_z_mm": [
+    15.5,
+    19.5
+  ],
+  "battery_to_lcd_reserved_gap_mm": 5.5,
+  "battery_additional_front_space_mm": 2,
+  "switch_to_lcd_reserved_gap_mm": 1.25,
+  "switch_to_inner_rear_gap_mm": 1.25,
+  "lower_pcb_support_height_mm": 7.949999999999999,
+  "lower_module_to_rear_gap_mm": 0.9499999999999993,
+  "lid_closing_positions_checked": 121,
+  "lower_geometry_and_front_seats_preserved": true,
+  "lower_geometry_comparison_note": "Compared with baseline using this variant's R2.4 roll and speaker face style; mechanical seats do not change.",
+  "mechanism_unchanged": true,
+  "positive_watertight_connected_meshes": true,
+  "caps_in_separate_combined_file": 4,
+  "notes": [
+    "22 mm top assumes full measured LCD thickness including rear connectors; 2 mm front recess additionally reserved.",
+    "Switch reference remains unconfirmed; aperture moved 7.5 mm toward front.",
+    "Battery and charger retain low locating rails, require removable retention and underside insulation.",
+    "The curved rear lid is not bed-flat: slicer support/orientation required.",
+    "LCD retention, charge/USB/microSD openings, fasteners and real cable routes remain unfinished."
+  ],
+  "parts": [
+    {
+      "file": "front-variable-DRAFT.stl",
+      "dimensions_mm": [
+        103.0,
+        150.0,
+        28.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "STL_readback_validated": true,
+      "degenerate_faces_after_readback": 0,
+      "export_weld_grid_mm": 0.0001,
+      "export_volume_delta_mm3": 0.001001,
+      "print_orientation": "front face down",
+      "sha256": "286644c5224bac52551649f89f5e9fd786dcd6e80c6c2a7284b71c41bd7adbc9"
+    },
+    {
+      "file": "rear-variable-DRAFT.stl",
+      "dimensions_mm": [
+        103.0,
+        150.0,
+        12.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "STL_readback_validated": true,
+      "degenerate_faces_after_readback": 0,
+      "export_weld_grid_mm": 0.0001,
+      "export_volume_delta_mm3": 0.008286,
+      "print_orientation": "lower outside face down; raised upper back needs supports; review slicer",
+      "sha256": "f9e79063791c3d3597dee31123b74a9738d2c49827259f0bf303bf375f52b2eb"
+    },
+    {
+      "file": "../../output/button-retainer-DRAFT.stl",
+      "unchanged_shared_part": true,
+      "sha256": "d9e86e74c74cfe578c9ef291612b189ea06327176074a930410ed1dd69e5084d"
+    },
+    {
+      "file": "../../output/dpad-DRAFT.stl",
+      "unchanged_shared_part": true,
+      "sha256": "7353a1717a5fad1df189a92cbeef8c25dbf531e916557683fac77e252e27f372"
+    },
+    {
+      "file": "../../output/four-caps-DRAFT.stl",
+      "unchanged_shared_part": true,
+      "sha256": "0e667fb7c28dae6022a482a5f39c64975de825b93ca16573ee543fea7461501e"
+    }
+  ],
+  "baseline_files_unchanged": true,
+  "baseline_sha256": {
+    "build_case.py": "ee82d3f2d28047a88e2dc4ecb6f374a7ffad490536aa7d5c3a0eb0b467eea594",
+    "parameters.json": "0c057bcc10b97d0ac5a8a7e66d6703b322f7dfede55d01f2102d3046a674abc5",
+    "README.md": "b465a59df69eb7606ef06554f387ce43d9334e405cb19e967f2ddca82973afd2",
+    "output/button-layout-1to1.svg": "f5c3e308590d8d4ae7a434acc4b9f1ef9643d722d0dbe9cd4efe24dd6d531833",
+    "output/button-retainer-DRAFT.stl": "d9e86e74c74cfe578c9ef291612b189ea06327176074a930410ed1dd69e5084d",
+    "output/checks.json": "9ef89da2d85001f0d7d007508d841892a7f0a7767b06278beab3981873ebf3cd",
+    "output/dpad-DRAFT.stl": "7353a1717a5fad1df189a92cbeef8c25dbf531e916557683fac77e252e27f372",
+    "output/four-caps-DRAFT.stl": "0e667fb7c28dae6022a482a5f39c64975de825b93ca16573ee543fea7461501e",
+    "output/front-DRAFT.stl": "2c2f1ee46bbe70bf63da1e1dd80e298d73471e043ad4d6ef4299a02d7294409c",
+    "output/preview.png": "cd2c9f69d94bfc4f9390899f13b0369ce288031ef440a304795359f2196aa332",
+    "output/rear-DRAFT.stl": "6a59f5dc2aef57a67d4ac1d5da3aa069e3341fc45e4f10c2d2977f15ceaf66e9",
+    "reference/KBB40-2P2W-RUICHI.pdf": "13f204160e4e9eb9dcbbd74b3bd2cfedc8fc5364d26f74026cc996642bf7790f",
+    "reference/obj.mtl": "55fd43942afa7283c08d8cdd9dfbf385e5edff354d0a501c3767fa92ad31e736",
+    "reference/tinker.obj": "b146ec61d233898377e8d98ad75868ee0fabe601a190ce9a7d5dcf05cce7745d"
+  }
+}

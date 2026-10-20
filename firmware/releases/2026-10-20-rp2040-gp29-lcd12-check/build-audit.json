@@ -1,0 +1,36 @@
+{
+  "version": "2.2.5-RP2040-GP29",
+  "hardware_tested": false,
+  "automatically_flashed": false,
+  "monitor_default": "ON for confirmed assembled divider; BAT2 OFF remains respected",
+  "uf2_family": "e48bff56",
+  "uf2_sha256": "193cdaac72fce5e4ea8268db2719715ddd5397f74138694c9456332074a90c03",
+  "rollback_path": "releases/2026-10-07-rp2040-native-menu/02-ScarletPico-v2_2_3-RP2040-NATIVE-TEST.uf2",
+  "rollback_sha256": "637a11d8d6e786dbbe4de8b70cbf2356b50ec493a75468bf86ca9a53c9a00a03",
+  "compiler": "arm-none-eabi-gcc (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623",
+  "flash_end": "0x10022ab4",
+  "bss_end": "0x2003956c",
+  "heap_remaining_bytes": 27284,
+  "sense_pins": {
+    "adc": 29,
+    "charger_status": null
+  },
+  "divider_ohms": [
+    4700,
+    4700
+  ],
+  "adc_reference_nominal_mv": 3300,
+  "sample_interval_us": 1000000,
+  "indicator_rectangle": [
+    400,
+    0,
+    80,
+    44
+  ],
+  "voltage_text_y": 28,
+  "cpu_hz": 200000000,
+  "lcd_requested_hz": 12500000,
+  "display_check_only": true,
+  "kernel_sha256": "6244f56ee63933987b4bbfb7401c1ddef9d8e2610b9a78a882776e785631e551",
+  "display_sha256": "fa8d6c6167a35820bb78c5b8d1790ffe228190eda3fddfcf0a5acb31285af8b4"
+}

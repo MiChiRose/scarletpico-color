@@ -1,0 +1,34 @@
+{
+  "hardware_tested": false,
+  "version": "3.0-RP2350-test",
+  "sha256": "1abe1d0a76ded712f401ecec400c6920ae624fd456a5c01f1af0db5a62cb586c",
+  "platform": "RP2350 ARM Secure",
+  "cpu_mhz": 200,
+  "lcd_requested_mhz": 100,
+  "game_size": [
+    320,
+    288
+  ],
+  "audio": "MAX98357A I2S GP11/12/13, 16 kHz mono mix",
+  "ram_core": true,
+  "rom_limit_bytes": 3670016,
+  "snapshot_format": "23500002",
+  "native_functions_preserved": [
+    "display_frame",
+    "window",
+    "send_row",
+    "bus_idle",
+    "finish_window",
+    "display_game_speed",
+    "display_sd_speed",
+    "display_init",
+    "publish_frame",
+    "video_worker",
+    "draw_line"
+  ],
+  "flash_end": "0x100207d4",
+  "bss_end": "0x200661dc",
+  "stack_limit": "0x20080000",
+  "kernel_header_sha256": "6244f56ee63933987b4bbfb7401c1ddef9d8e2610b9a78a882776e785631e551",
+  "incoming_archive_sha256": "1e1e2f7ed8bcf15b4f42bfdd1b7c2cf89403e734c26124986d4f5f54a4d312ba"
+}

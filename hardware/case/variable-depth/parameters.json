@@ -1,0 +1,21 @@
+{
+  "name": "ScarletPico / variable-depth fit-check",
+  "upper_depth": 22,
+  "lower_depth": 30,
+  "transition_start_y": 55.5,
+  "transition_end_y": 70.5,
+  "rear_normal_thickness": 2,
+  "front_edge_radius": 2.4,
+  "speaker_face_flat": true,
+  "display_measured_thickness": 8,
+  "display_front_recess_allowance": 2,
+  "battery_center": [41, 35],
+  "charger_measured_dimensions": [20, 15, 2],
+  "charger_bay_dimensions": [22, 17, 4],
+  "charger_bay_center": [85.5, 45.5],
+  "charger_rear_insulation_allowance": 0.5,
+  "switch_center_yz": [23, 15],
+  "diode_keepout_origin": [70, 19, 12],
+  "diode_keepout_size": [10, 12, 8],
+  "note": "8 mm LCD is the user's full module measurement. Reserve 10 mm behind outside front, allowing 2 mm recess. TP4056 size is user-measured after USB removal, not an electrical/thermal validation. Lower button mechanism and complete 21 mm stack stay unchanged. Keep old flat-depth shell and lid as a matched pair; do not mix versions."
+}

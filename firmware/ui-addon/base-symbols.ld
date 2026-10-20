@@ -1,0 +1,20 @@
+/* Valid ONLY for the pinned, user-tested v0.9-B audio50 image. */
+original_display_init = 0x10000c71;
+original_display_select_bus = 0x10000c0d;
+original_fill_rect = 0x100013e1;
+original_lcd_window = 0x1000039d;
+original_storage_mount = 0x100083ad;
+original_prepare_rom = 0x10008495;
+original_scan_games = 0x10008425;
+original_f_read = 0x10014f35;
+original_flash_erase = 0x2000039d;
+original_flash_program = 0x20000429;
+spi_write_blocking = 0x200016a1;
+spi_set_baudrate = 0x1001b7cd;
+gpio_set_function = 0x10008e31;
+sleep_us = 0x10009b69;
+sleep_ms = 0x10009c21;
+time_us_64 = 0x10009e3d;
+__aeabi_uidiv = 0x1000aab1;
+__aeabi_uidivmod = 0x1000aab1;
+memset = 0x1000b949;

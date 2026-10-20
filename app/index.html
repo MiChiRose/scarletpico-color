@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#8e1835">
+  <title>ScarletPico Color</title>
+  <link rel="stylesheet" href="/app/style.css">
+</head>
+<body>
+  <main class="workbench">
+    <section class="console" aria-label="ScarletPico Color virtual console">
+      <div class="console-topline"><span>SCARLETPICO</span><span class="power-led" aria-hidden="true"></span></div>
+      <div class="display-frame">
+        <div id="lcd" class="lcd" tabindex="0" aria-label="Console display">
+          <section id="power-screen" class="screen-layer power-screen active">
+            <div class="power-mark">SP</div>
+            <p>PRESS ANY KEY</p>
+          </section>
+          <section id="boot-screen" class="screen-layer boot-screen" aria-hidden="true">
+            <div class="boot-logo"><strong>ScarletPico</strong><span>COLOR</span></div>
+          </section>
+          <section id="menu-screen" class="screen-layer menu-screen" aria-hidden="true">
+            <header><span>SCARLETPICO</span><time id="menu-time">--:--</time></header>
+            <div class="menu-title"><span>MICROSD</span><b id="game-count">0 GAMES</b></div>
+            <ol id="game-list" class="game-list"></ol>
+            <footer><span>SELECT NEXT</span><span>START PLAY</span></footer>
+          </section>
+          <section id="game-screen" class="screen-layer game-screen" aria-hidden="true">
+            <aside class="rail rail-left">
+              <span class="rail-label">PWR</span>
+              <div class="battery"><i id="battery-level"></i></div>
+              <b id="battery-text">86%</b>
+            </aside>
+            <div class="game-viewport"><iframe id="emulator" title="Game emulator" allow="autoplay"></iframe></div>
+            <aside class="rail rail-right">
+              <span class="rail-label">TIME</span>
+              <time id="game-time">--:--</time>
+            </aside>
+            <div id="notice" class="notice" role="status"></div>
+          </section>
+        </div>
+        <p>320 × 240 TFT · STEREO</p>
+      </div>
+      <div class="hardware-controls" aria-hidden="true">
+        <div class="dpad"><i class="up"></i><i class="right"></i><i class="down"></i><i class="left"></i><b></b></div>
+        <div class="system-buttons"><span>SELECT</span><span>START</span></div>
+        <div class="face-buttons"><span>B</span><span>A</span></div>
+      </div>
+      <div class="speaker" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </section>
+    <aside class="guide">
+      <p class="project-name">ScarletPico Color · Desktop build 0.1</p>
+      <h1>A handheld before the hardware.</h1>
+      <p>The <code>roms/</code> folder acts as the microSD card. Restart the server after adding a file.</p>
+      <dl>
+        <div><dt>D-pad</dt><dd>Arrow keys</dd></div>
+        <div><dt>B / A</dt><dd>Z / X</dd></div>
+        <div><dt>Start / Select</dt><dd>Enter / Tab</dd></div>
+        <div><dt>Quick save / load</dt><dd>F6 / F9</dd></div>
+        <div><dt>System chords</dt><dd>Select+A / Select+B</dd></div>
+        <div><dt>Return to menu</dt><dd>Esc or hold Start+Select</dd></div>
+      </dl>
+      <button id="power-button" type="button"><span></span>POWER</button>
+      <p class="legal">ScarletPico boot graphics and chime are original. Game emulation uses the MIT-licensed binjgb core.</p>
+    </aside>
+  </main>
+  <script type="module" src="/app/app.js"></script>
+</body>
+</html>

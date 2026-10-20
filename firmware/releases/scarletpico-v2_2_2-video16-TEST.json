@@ -1,0 +1,91 @@
+{
+  "version": "2.2.2-video16-test",
+  "source_sha256": "886c59515a443abc64c0f12adc12579eca37eaf41c0a029ddcfd8ad4c563a657",
+  "output_sha256": "5137a17385011e5997287db167d46d5a82c1ca36e705bad970f265b07eb7e81a",
+  "appended_code": 1655,
+  "added_static_ram": 56,
+  "changes": [
+    {
+      "address": "0x100015d6",
+      "before": "fef767ff",
+      "after": "33f0e5fe",
+      "purpose": "Pipelined 16-bit region transport"
+    },
+    {
+      "address": "0x1000187c",
+      "before": "fef714fe",
+      "after": "33f092fd",
+      "purpose": "Pipelined 16-bit region transport"
+    },
+    {
+      "address": "0x10001914",
+      "before": "fef7c8fd",
+      "after": "33f046fd",
+      "purpose": "Pipelined 16-bit region transport"
+    },
+    {
+      "address": "0x10001a42",
+      "before": "fef731fd",
+      "after": "33f0affc",
+      "purpose": "Pipelined 16-bit region transport"
+    },
+    {
+      "address": "0x10001b16",
+      "before": "fef7c7fc",
+      "after": "33f045fc",
+      "purpose": "Pipelined 16-bit region transport"
+    },
+    {
+      "address": "0x10001b86",
+      "before": "fef78ffc",
+      "after": "33f00dfc",
+      "purpose": "Pipelined 16-bit region transport"
+    },
+    {
+      "address": "0x10001f12",
+      "before": "fef7c9fa",
+      "after": "33f047fa",
+      "purpose": "Pipelined 16-bit region transport"
+    },
+    {
+      "address": "0x1000898e",
+      "before": "f8f7f5fd",
+      "after": "2cf04bff",
+      "purpose": "video_fast_full"
+    },
+    {
+      "address": "0x10008946",
+      "before": "f8f761fe",
+      "after": "2cf08fff",
+      "purpose": "video_fast_changed"
+    },
+    {
+      "address": "0x10008374",
+      "before": "05f0e6f8",
+      "after": "2df09cfa",
+      "purpose": "video_fast_perf"
+    },
+    {
+      "address": "0x10000270",
+      "before": "28f90120",
+      "after": "60f90120",
+      "purpose": "Reserve video state outside heap"
+    },
+    {
+      "address": "0x1000d124",
+      "before": "28f90120",
+      "after": "60f90120",
+      "purpose": "Reserve video state outside heap"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "98520310",
+      "after": "77590310",
+      "purpose": "Image end metadata"
+    }
+  ],
+  "core_audio_ui_features_byte_identical": true,
+  "clocks_unchanged": true,
+  "display_pixel_bytes_unchanged": true,
+  "physical_fps_not_yet_measured": true
+}

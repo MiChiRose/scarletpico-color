@@ -1,0 +1,87 @@
+{
+  "version": "2.2.6-legacy222-gp29",
+  "source_sha256": "98b80f2827d626e697b83034d426b77e5fe028e1792f30edaec50a80ab963089",
+  "uf2_sha256": "e8c6c99223e571fd450ec213446bff1e702ce57671c3b994cbff59e9cbc92209",
+  "source_path": "releases/2026-10-07-rp2040-native-menu/01-ScarletPico-v2_2_2-RP2040-ROLLBACK.uf2",
+  "hardware_base_confirmed": true,
+  "hardware_new_build_tested": false,
+  "automatically_flashed": false,
+  "appended_code_bytes": 1047,
+  "added_static_ram": 32,
+  "added_heap_allocations": 0,
+  "changed_base_bytes": 19,
+  "changes": [
+    {
+      "address": "0x10030876",
+      "before": "00f0f5fc",
+      "after": "07f003ff",
+      "purpose": "legacy_battery_header"
+    },
+    {
+      "address": "0x100314be",
+      "before": "fff795ff",
+      "after": "07f001f9",
+      "purpose": "legacy_battery_menu_input"
+    },
+    {
+      "address": "0x100368d4",
+      "before": "fff714fe",
+      "after": "01f020ff",
+      "purpose": "legacy_battery_frame"
+    },
+    {
+      "address": "0x10008a30",
+      "before": "2af082fa",
+      "after": "2ff07efe",
+      "purpose": "legacy_battery_hud"
+    },
+    {
+      "address": "0x10000270",
+      "before": "98f90120",
+      "after": "b8f90120",
+      "purpose": "Reserve/zero only battery state outside the original heap"
+    },
+    {
+      "address": "0x1000d124",
+      "before": "98f90120",
+      "after": "b8f90120",
+      "purpose": "Reserve/zero only battery state outside the original heap"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "a0830310",
+      "after": "17880310",
+      "purpose": "Complete image length"
+    },
+    {
+      "address": "0x10034836",
+      "before": "76322e322e32",
+      "after": "76322e322e36",
+      "purpose": "About version only"
+    }
+  ],
+  "original_lcd_init_transport_core_audio_clocks_preserved": true,
+  "original_scaling": [
+    356,
+    320
+  ],
+  "gpios_added": [
+    29
+  ],
+  "charger_signals": false,
+  "menu_indicator": [
+    400,
+    0,
+    80,
+    44
+  ],
+  "game_indicator": [
+    418,
+    0,
+    62,
+    44
+  ],
+  "sample_interval_us": 1000000,
+  "elf_sha256": "438e68687d3705fe478bad6fe1d81d29e95e4e0ea8f64a65eb16456647a1956c",
+  "image_sha256": "6b4ce1040df7fc2c077f3b350cc4059c9bb51b54b9d8d1da4b86193d2c382d92"
+}

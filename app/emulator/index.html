@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ScarletPico emulator</title>
+  <style>
+    html,body,#game{width:100%;height:100%;margin:0;overflow:hidden;background:#000}
+    canvas{display:block;width:100%;height:100%;image-rendering:pixelated;image-rendering:crisp-edges}
+    #controller{display:none!important}
+  </style>
+</head>
+<body>
+  <div id="game"><canvas id="mainCanvas" width="160" height="144">Canvas is required.</canvas></div>
+  <div id="controller"><div id="controller_dpad"></div><div id="controller_select"></div><div id="controller_start"></div><div id="controller_b"></div><div id="controller_a"></div></div>
+  <script src="/app/vendor/binjgb.js"></script>
+  <script src="/app/emulator/core.js"></script>
+</body>
+</html>

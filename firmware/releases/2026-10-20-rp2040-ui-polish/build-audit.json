@@ -1,0 +1,97 @@
+{
+  "version": "2.2.7-legacy-ui-polish",
+  "source_sha256": "e8c6c99223e571fd450ec213446bff1e702ce57671c3b994cbff59e9cbc92209",
+  "uf2_sha256": "2be5dd4d37001167a77501174ce02ba3d59a21e555b4ff6b87a2620b8c6f34c0",
+  "rollback_path": "releases/2026-10-20-rp2040-legacy222-battery/ScarletPico-v2_2_6-RP2040-LEGACY222-GP29.uf2",
+  "automatically_flashed": false,
+  "hardware_new_build_tested": false,
+  "appended_code_bytes": 2940,
+  "added_static_ram": 24,
+  "new_heap_allocations": 0,
+  "changed_base_bytes": 33,
+  "changes": [
+    {
+      "address": "0x10030814",
+      "before": "7fb50021f022184c",
+      "after": "004b1847758a0310",
+      "purpose": "polished_header"
+    },
+    {
+      "address": "0x100308cc",
+      "before": "0023034a1370034a",
+      "after": "004b1847198b0310",
+      "purpose": "polished_invalidate"
+    },
+    {
+      "address": "0x10030b20",
+      "before": "0022f0b5964b95b0",
+      "after": "004b18473d8b0310",
+      "purpose": "polished_menu_draw"
+    },
+    {
+      "address": "0x10031354",
+      "before": "01f0a4ff",
+      "after": "07f0aefe",
+      "purpose": "600ms boot entrance, original chime, Start skips"
+    },
+    {
+      "address": "0x10007aa6",
+      "before": "1920",
+      "after": "0c20",
+      "purpose": "UI-only stable recheck: 25ms to 12ms"
+    },
+    {
+      "address": "0x10032c60",
+      "before": "1920",
+      "after": "0c20",
+      "purpose": "UI-only stable recheck: 25ms to 12ms"
+    },
+    {
+      "address": "0x10032f24",
+      "before": "1920",
+      "after": "0c20",
+      "purpose": "UI-only stable recheck: 25ms to 12ms"
+    },
+    {
+      "address": "0x10036a24",
+      "before": "1920",
+      "after": "0c20",
+      "purpose": "UI-only stable recheck: 25ms to 12ms"
+    },
+    {
+      "address": "0x10000270",
+      "before": "b8f90120",
+      "after": "d0f90120",
+      "purpose": "Reserve/zero UI cache, keep original allocator"
+    },
+    {
+      "address": "0x1000d124",
+      "before": "b8f90120",
+      "after": "d0f90120",
+      "purpose": "Reserve/zero UI cache, keep original allocator"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "17880310",
+      "after": "7c940310",
+      "purpose": "Complete image size"
+    },
+    {
+      "address": "0x10034836",
+      "before": "76322e322e36",
+      "after": "76322e322e37",
+      "purpose": "About version"
+    }
+  ],
+  "lcd_core_clocks_audio_worker_battery_byte_identical": true,
+  "game_size": [
+    356,
+    320
+  ],
+  "ui_debounce_ms": 12,
+  "boot_entrance_ms": 600,
+  "boot_hold_ms": 120,
+  "original_chime_unchanged": true,
+  "elf_sha256": "3ab3d3e899b73b0559627a034633867d1b53f09a882c3fff463783b98a55c8e6",
+  "image_sha256": "a49bb3f05863cd55b0d7b6922b29f0f3abc8a7d7fbd396682aa5627a13564b82"
+}

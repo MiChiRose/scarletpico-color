@@ -1,0 +1,23 @@
+PASS ARM: patched APU dispatch, original non-APU memory, ABI/stack preservation, PCM boundaries
+PASS ARM: frame/render passthrough, clock divider, underflow silence, stop/relaunch/resource reuse
+PASS assembled PIO: 16-bit slots, MSB order, I2S one-bit WS delay, 32 BCLK/64 cycles per stereo frame
+PASS ARM: persisted defaults, PWM GP10/slice5, brightness clamp 10..100, no CPU clock writes
+PASS ARM: settings input/debounce, one save on exit, exact reserved sector, reboot restores volume
+PASS ARM: actual original mixer at mute/50%/100%, signed stereo-to-mono gain
+PASS ARM: actual inline input hook ABI and condition flags; game controls untouched
+PASS ARM: no-card boot, failed retry, successful retry; no endless redraw or writes
+PASS ARM: original ROM loader, exact data/cache layout, animated erase/read, correct SPI handoff
+PASS ARM: cached ROM load is read-only, no artificial delay
+PASS ARM: original main loop navigates games, opens settings, returns without auto-launch, then launches selected game
+PASS VIDEO16: every pixel at all scales, partial/narrow windows, DMA channel 0/4/11, no-channel fallback, no writes to in-flight scanline, SPI mode/clock restoration, IRQ isolation
+PASS VIDEO16 fault handling: DMA error/5 ms timeout -> abort/drain -> whole-window redraw via original driver, subsequent fallback
+PASS original full/diff + telemetry: unchanged frame sends zero, sparse edits send <100 pixels, exact previous-buffer update, seqlock read, old PERF ABI
+STACK_BYTES_OBSERVED 1904
+FIRMWARE_SHA256 5137a17385011e5997287db167d46d5a82c1ca36e705bad970f265b07eb7e81a
+PASS SHADOW lossless: 4/16-colour tile caches, per-tile RGB565 palettes, full-height/2x geometry, zero unchanged transfers, sparse <100-pixel updates, random edits, colour-overflow and scale-change redraws, cache guards
+PASS SHADOW palette overflow: exact uncompressed tile redraw, no dropped colours/hashes, recovers caching when colours fit
+PASS SHADOW low-memory and DMA-error fallbacks
+PASS actual worker: full seed -> unchanged zero traffic -> small dirty region; completed LCD count 2, not inflated for unchanged frame
+PASS SHADOW telemetry: original PERF ABI + coherent VIDEO16 + cache type/size and actual save RAM
+STACK_BYTES_OBSERVED 1968
+FIRMWARE_SHA256 98b80f2827d626e697b83034d426b77e5fe028e1792f30edaec50a80ab963089

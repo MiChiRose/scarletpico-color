@@ -1,0 +1,206 @@
+{
+  "revision": "R3 SPLIT / FIT CHECK",
+  "physical_fit_verified": false,
+  "assembled_case_mm": [
+    103,
+    150,
+    30
+  ],
+  "rear_sections": 3,
+  "seam_gap_mm": 0.2,
+  "closure_screws_total": 10,
+  "closure_per_section": {
+    "upper": 4,
+    "transition": 2,
+    "lower": 4
+  },
+  "new_fasteners": [
+    {
+      "section": "upper",
+      "point": [
+        3.8,
+        51,
+        22
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "head_seat": [
+        3.8,
+        51,
+        22
+      ],
+      "engagement_mm": 4,
+      "pilot_depth_mm": 5
+    },
+    {
+      "section": "upper",
+      "point": [
+        99.2,
+        51,
+        22
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "head_seat": [
+        99.2,
+        51,
+        22
+      ],
+      "engagement_mm": 4,
+      "pilot_depth_mm": 5
+    },
+    {
+      "section": "transition",
+      "point": [
+        3.8,
+        64.0,
+        26.79525925925926
+      ],
+      "normal": [
+        0.0,
+        -0.6178524189418629,
+        0.7862940851918504
+      ],
+      "head_seat": [
+        3.8,
+        64.09267786284128,
+        26.677315146480485
+      ],
+      "engagement_mm": 4.13,
+      "pilot_depth_mm": 5,
+      "head_spot_depth_mm": 0.15
+    },
+    {
+      "section": "transition",
+      "point": [
+        99.2,
+        64.0,
+        26.79525925925926
+      ],
+      "normal": [
+        0.0,
+        -0.6178524189418629,
+        0.7862940851918504
+      ],
+      "head_seat": [
+        99.2,
+        64.09267786284128,
+        26.677315146480485
+      ],
+      "engagement_mm": 4.13,
+      "pilot_depth_mm": 5,
+      "head_spot_depth_mm": 0.15
+    }
+  ],
+  "new_fastener_type": "M2 x 6 pan-head self tapping for plastic",
+  "connector_fastener_passages_mm": 2.1,
+  "connector_windows_unchanged": true,
+  "battery_seat_preserved": true,
+  "TP4056_bay_crosses_upper_joint": true,
+  "curved_band_max_surface_shift_per_print_height": 0.8,
+  "curved_band_max_overhang_from_vertical_deg": 38.66,
+  "manufacturing": [
+    {
+      "section": "upper",
+      "orientation": "outside-down",
+      "bed_contact_area_mm2": 5368.57,
+      "print_dimensions_mm": [
+        103.0,
+        54.9,
+        4.0
+      ]
+    },
+    {
+      "section": "transition",
+      "orientation": "upper-cut-end-down",
+      "bed_contact_area_mm2": 208.98,
+      "print_dimensions_mm": [
+        103.0,
+        11.5,
+        15.8
+      ]
+    },
+    {
+      "section": "lower",
+      "orientation": "outside-down",
+      "bed_contact_area_mm2": 7366.03,
+      "print_dimensions_mm": [
+        103.0,
+        78.9,
+        9.95
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "file": "01-front-R3.stl",
+      "orientation": "front-down",
+      "watertight": true,
+      "STL_readback_validated": true,
+      "dimensions_mm": [
+        103.0,
+        150.0,
+        28.0
+      ],
+      "sha256": "a026ccf05b8dbdad8c723717abed049450d5fec210fc629d6e951016c3265908"
+    },
+    {
+      "file": "02a-rear-upper-R3.stl",
+      "orientation": "outside-down",
+      "watertight": true,
+      "STL_readback_validated": true,
+      "dimensions_mm": [
+        103.0,
+        54.9,
+        4.0
+      ],
+      "sha256": "6b7a050237f461152f579b73e3f8f21a95eafaa57d077bfbb33f8042caa4ecd6"
+    },
+    {
+      "file": "02b-rear-transition-R3.stl",
+      "orientation": "upper-cut-end-down",
+      "watertight": true,
+      "STL_readback_validated": true,
+      "dimensions_mm": [
+        103.0,
+        11.5,
+        15.8
+      ],
+      "sha256": "cd1a5d6a195440c18f266d11efdd245e6d282a5e404311ebe1207b977948d2ae"
+    },
+    {
+      "file": "02c-rear-lower-R3.stl",
+      "orientation": "outside-down",
+      "watertight": true,
+      "STL_readback_validated": true,
+      "dimensions_mm": [
+        103.0,
+        78.9,
+        9.95
+      ],
+      "sha256": "7de7983742c9fa25d1d704f495c31cd7bc28e97ddc050d60969db27b4c65b004"
+    },
+    {
+      "file": "10-seam-fastener-FIT-TEST-OPTIONAL.stl",
+      "orientation": "front-down",
+      "watertight": true,
+      "STL_readback_validated": true,
+      "dimensions_mm": [
+        36.0,
+        24.0,
+        27.956
+      ],
+      "sha256": "fdbad1f9d28771bcc947f0a33e9177dd9e5b9fff609849cc77a16d0d99f8840f"
+    }
+  ],
+  "test_coupon": "10-seam-fastener-FIT-TEST-OPTIONAL.stl",
+  "old_R2_files_unchanged": true,
+  "parent_STL_weld_seam_overlap_mm3": 0.035241,
+  "no_new_seam_interference": true
+}

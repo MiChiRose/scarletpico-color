@@ -1,0 +1,5 @@
+Native RP2350 UF2/image definition/flash and RAM layout: 4 variants PASS
+GB: 120 frames, 17279 scanlines, no invalid memory access
+GBC: 120 frames, 17279 scanlines, no invalid memory access
+RGB565 conversion and all scaling modes: PASS
+Hardware tests: NOT RUN; no device measurements.

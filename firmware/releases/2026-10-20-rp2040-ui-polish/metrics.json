@@ -1,0 +1,11 @@
+{
+  "baseline_navigation_pixels": 43109,
+  "polished_navigation_pixels": 3222,
+  "pixel_traffic_reduction_percent": 92.53,
+  "idle_pixels": 0,
+  "debounce_before_ms": 25,
+  "debounce_after_ms": 12,
+  "boot_with_modelled_chime_us": 1448000,
+  "physical_measurement": false,
+  "uf2_sha256": "2be5dd4d37001167a77501174ce02ba3d59a21e555b4ff6b87a2620b8c6f34c0"
+}

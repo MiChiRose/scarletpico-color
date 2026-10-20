@@ -1,0 +1,63 @@
+{
+  "status": "CAD CHECKED / PHYSICAL LCD FIT NOT VERIFIED",
+  "source": "01-front-R3.stl",
+  "source_sha256": "a026ccf05b8dbdad8c723717abed049450d5fec210fc629d6e951016c3265908",
+  "file": "01-front-R3-LCD-3mm.stl",
+  "sha256": "8c82e9eda21802c7fd7b86f4c763c57e4ba09c8c38fe06eb04e3927ee6a7f24d",
+  "bodies": 1,
+  "watertight": true,
+  "dimensions_mm": [
+    103.0,
+    150.0,
+    28.0
+  ],
+  "floor_z_mm": 3.0,
+  "post_height_above_inner_floor_mm": 3.0,
+  "old_post_height_above_inner_floor_mm": 7.300000000000001,
+  "new_clip_seat_z_mm": 6.0,
+  "shortened_by_mm": 4.300000000000001,
+  "mounting_centers_xy_mm": [
+    [
+      12,
+      7
+    ],
+    [
+      91,
+      7
+    ],
+    [
+      12,
+      74
+    ],
+    [
+      91,
+      74
+    ]
+  ],
+  "clip_toe_contact_z_mm": 5.85,
+  "existing_LCD_clip_STL_reused": true,
+  "screw": "M2 x 6 self-tapping, without a washer",
+  "screw_grip_mm": 3.0,
+  "thread_engagement_mm": 3.0,
+  "pilot_diameter_mm": 1.7,
+  "pilot_depth_mm": 3.5,
+  "pilot_floor_z_mm": 2.5,
+  "pilot_bottom_margin_mm": 0.5,
+  "all_other_existing_STL_unchanged": true,
+  "checks": [
+    "only four local post/pilot regions changed",
+    "exterior, display recess, all button interfaces and six button seats unchanged",
+    "flat post top, empty pilot, blind floor verified",
+    "existing LCD clip shape reused at new height",
+    "lowered clips clear front, old mechanisms, split spring frames and leaves",
+    "lowered clips clear nominal battery and button PCB envelopes",
+    "6 mm screw has 3 mm grip, 3 mm engagement, 0.5 mm bottom margin",
+    "STL readback is one closed body; unchanged global bounds"
+  ],
+  "limitations": [
+    "Bare rear PCB contact height is approximated by user, not precisely measured.",
+    "Broad 95 x 59 x 8 mm LCD envelope is NOT a solid PCB model; clip-to-LCD contact and actual component clearance need physical verification.",
+    "Do not bend the LCD PCB by tightening against a height mismatch.",
+    "Washers lift the clip and reduce thread engagement with the same M2 x 6 screw; verify screw length if washers are later needed."
+  ]
+}

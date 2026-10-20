@@ -1,0 +1,100 @@
+{
+  "status": "CAD CHECKED / PHYSICAL FIT NOT YET TESTED",
+  "production_geometry_unchanged": true,
+  "protected_files_unchanged": true,
+  "PCB_front_z_mm": 12.05,
+  "PCB_rear_contact_z_mm": 20.05,
+  "module_rear_limit_z_mm": 27.05,
+  "frame_inner_z_mm": 28,
+  "board_mount_pitch_mm": [
+    65,
+    45
+  ],
+  "cap_free_travel_mm": 0.75,
+  "nominal_neutral_actuator_gap_mm": 0.3,
+  "case_screws": {
+    "count": 4,
+    "type": "M2 x 6 plastic self-tapping",
+    "engagement_mm": 4,
+    "pilot_depth_mm": 5
+  },
+  "retainer_screws": {
+    "count": 6,
+    "type": "M2 x 6 plastic self-tapping",
+    "engagement_mm": 3,
+    "pilot_depth_mm": 3.5
+  },
+  "board_screws": "Reuse the four existing matching case-to-brass-spacer screws; not M2 self-tappers.",
+  "board_support_geometry_identical": true,
+  "limitations": [
+    "Photo-derived board hole centers and nominal 6 mm tactile height are not newly measured.",
+    "Open fixture does not protect loose powered components.",
+    "No measured switch forces, physical PETG fit or fatigue test."
+  ],
+  "preferred_file": "00-ALL-BUTTONS-LIGHT-ONE-PLATE.stl",
+  "light_test_independent_bodies": 7,
+  "light_test_fixes_PCB_height": false,
+  "full_fixture_one_plate_independent_bodies": 8,
+  "parts": [
+    {
+      "file": "01-all-buttons-front-TEST.stl",
+      "dimensions_mm": [
+        90.0,
+        65.0,
+        28.0
+      ],
+      "volume_cm3": 20.436,
+      "watertight": true,
+      "STL_readback_validated": true,
+      "components": 1
+    },
+    {
+      "file": "02-open-board-frame-TEST.stl",
+      "dimensions_mm": [
+        90.0,
+        65.0,
+        9.95
+      ],
+      "volume_cm3": 6.15,
+      "watertight": true,
+      "STL_readback_validated": true,
+      "components": 1
+    },
+    {
+      "file": "03-button-retainer-R2.stl",
+      "byte_identical_to_production": true
+    },
+    {
+      "file": "04-dpad-R2.stl",
+      "byte_identical_to_production": true
+    },
+    {
+      "file": "05-four-caps-R2.stl",
+      "byte_identical_to_production": true
+    },
+    {
+      "file": "00-ALL-BUTTONS-TEST-ONE-PLATE.stl",
+      "dimensions_mm": [
+        186.0,
+        121.0,
+        28.0
+      ],
+      "volume_cm3": 39.465,
+      "watertight": true,
+      "STL_readback_validated": true,
+      "components": 8
+    },
+    {
+      "file": "00-ALL-BUTTONS-LIGHT-ONE-PLATE.stl",
+      "dimensions_mm": [
+        185.0,
+        86.6,
+        8.6
+      ],
+      "volume_cm3": 26.429,
+      "watertight": true,
+      "STL_readback_validated": true,
+      "components": 7
+    }
+  ]
+}

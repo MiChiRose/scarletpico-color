@@ -1,0 +1,222 @@
+{
+  "status": "V2 CAD CHECKED / REQUIRES PHYSICAL FIT TEST",
+  "prior_print_feedback": "A/B and Start/Select spring action liked; D-pad support loose / too much inward movement.",
+  "source_frame_version": "build_springs.py / first split-spring candidate",
+  "front_file": "01-front-R3-LCD-3mm.stl",
+  "front_changed": false,
+  "screw": "six original M2 x 6 self-tappers, 3 mm grip and 3 mm engagement",
+  "mounts_xy_mm": {
+    "DPAD": [
+      [
+        10.5,
+        96.5
+      ],
+      [
+        55,
+        77
+      ]
+    ],
+    "AB": [
+      [
+        92.5,
+        84
+      ],
+      [
+        55,
+        105
+      ]
+    ],
+    "SS": [
+      [
+        10.5,
+        113
+      ],
+      [
+        92.5,
+        113
+      ]
+    ]
+  },
+  "caps_and_dpad_reprint_required": false,
+  "existing_caps": "four-matching-caps-SPRING-TEST",
+  "spring_geometry_changed": false,
+  "leaf_thickness_mm": 0.8,
+  "platform_thickness_mm": 1.2,
+  "preload_mm": 0.15,
+  "cap_stroke_to_stop_mm": 0.65,
+  "dpad_perimeter_z_mm": [
+    6.45,
+    7.85
+  ],
+  "dpad_central_contact_z_mm": 6.2,
+  "dpad_diagonal_rear_backing_width_mm": 3.2,
+  "dpad_secondary_overtilt_contacts": [
+    {
+      "axis_xy": [
+        1,
+        0
+      ],
+      "first_sampled_perimeter_contact_deg": 5.8
+    },
+    {
+      "axis_xy": [
+        -1,
+        0
+      ],
+      "first_sampled_perimeter_contact_deg": 5.5
+    },
+    {
+      "axis_xy": [
+        0,
+        1
+      ],
+      "first_sampled_perimeter_contact_deg": 5.5
+    },
+    {
+      "axis_xy": [
+        0,
+        -1
+      ],
+      "first_sampled_perimeter_contact_deg": 5.5
+    },
+    {
+      "axis_xy": [
+        1,
+        1
+      ],
+      "first_sampled_perimeter_contact_deg": 4.1
+    },
+    {
+      "axis_xy": [
+        -1,
+        -1
+      ],
+      "first_sampled_perimeter_contact_deg": 4.1
+    },
+    {
+      "axis_xy": [
+        1,
+        -1
+      ],
+      "first_sampled_perimeter_contact_deg": 4.1
+    },
+    {
+      "axis_xy": [
+        -1,
+        1
+      ],
+      "first_sampled_perimeter_contact_deg": 4.1
+    }
+  ],
+  "nominal_actuator_reach": {
+    "UP": {
+      "rest_tip_z_mm": 5.9,
+      "nominal_unpressed_switch_z_mm": 6.05,
+      "rest_gap_mm": 0.15,
+      "at_cardinal_3p2deg_tip_center_z_mm": 6.3343,
+      "nominal_switch_depression_mm": 0.2843
+    },
+    "DOWN": {
+      "rest_tip_z_mm": 5.9,
+      "nominal_unpressed_switch_z_mm": 6.05,
+      "rest_gap_mm": 0.15,
+      "at_cardinal_3p2deg_tip_center_z_mm": 6.3287,
+      "nominal_switch_depression_mm": 0.2787
+    },
+    "LEFT": {
+      "rest_tip_z_mm": 5.9,
+      "nominal_unpressed_switch_z_mm": 6.05,
+      "rest_gap_mm": 0.15,
+      "at_cardinal_3p2deg_tip_center_z_mm": 6.3455,
+      "nominal_switch_depression_mm": 0.2955
+    },
+    "RIGHT": {
+      "rest_tip_z_mm": 5.9,
+      "nominal_unpressed_switch_z_mm": 6.05,
+      "rest_gap_mm": 0.15,
+      "at_cardinal_3p2deg_tip_center_z_mm": 6.3176,
+      "nominal_switch_depression_mm": 0.2676
+    },
+    "A": {
+      "rest_tip_z_mm": 5.75,
+      "nominal_unpressed_switch_z_mm": 6.05,
+      "rest_gap_mm": 0.3,
+      "cap_travel_for_reference_0p2mm_depression_mm": 0.5,
+      "hard_stop_cap_travel_mm": 0.65
+    },
+    "B": {
+      "rest_tip_z_mm": 5.75,
+      "nominal_unpressed_switch_z_mm": 6.05,
+      "rest_gap_mm": 0.3,
+      "cap_travel_for_reference_0p2mm_depression_mm": 0.5,
+      "hard_stop_cap_travel_mm": 0.65
+    },
+    "SELECT": {
+      "rest_tip_z_mm": 5.75,
+      "nominal_unpressed_switch_z_mm": 6.05,
+      "rest_gap_mm": 0.3,
+      "cap_travel_for_reference_0p2mm_depression_mm": 0.5,
+      "hard_stop_cap_travel_mm": 0.65
+    },
+    "START": {
+      "rest_tip_z_mm": 5.75,
+      "nominal_unpressed_switch_z_mm": 6.05,
+      "rest_gap_mm": 0.3,
+      "cap_travel_for_reference_0p2mm_depression_mm": 0.5,
+      "hard_stop_cap_travel_mm": 0.65
+    }
+  },
+  "physical_limits": [
+    "Actual PCB height and real switch travel need verification with the PCB fixed in the complete case.",
+    "A test without electronics cannot verify tactile contact or the D-pad spring return.",
+    "Rigid-frame stiffness, print tolerances and loads are not solved by FEA.",
+    "No claim of improved physical D-pad feel until printed and assembled."
+  ],
+  "all_preexisting_STL_unchanged": true,
+  "parts": [
+    {
+      "file": "01-DPAD-retainer-SPRING-V2.stl",
+      "bodies": 1,
+      "dimensions_mm": [
+        51.5,
+        27.0,
+        3.0
+      ],
+      "volume_cm3": 1.447,
+      "sha256": "bd3a41f95ad5abc26ce175f3188800ab9cc4224cb7a4734e295f0612162edda4"
+    },
+    {
+      "file": "02-AB-retainer-SPRING-V2.stl",
+      "bodies": 1,
+      "dimensions_mm": [
+        44.5,
+        39.35,
+        3.0
+      ],
+      "volume_cm3": 1.096,
+      "sha256": "f615e687834100665e090d49fdbe466fb5cbf6de3d29c1ab70fc1fef52277c83"
+    },
+    {
+      "file": "03-START-SELECT-retainer-SPRING-V2.stl",
+      "bodies": 1,
+      "dimensions_mm": [
+        89.0,
+        22.4,
+        3.0
+      ],
+      "volume_cm3": 1.125,
+      "sha256": "852349db5eb3ad6cc054f2ec542dced2837c68599765f15b2ff1d65141df6be0"
+    },
+    {
+      "file": "00-THREE-RETAINERS-V2-ONE-PLATE.stl",
+      "bodies": 3,
+      "dimensions_mm": [
+        101.5,
+        72.4,
+        3.0
+      ],
+      "volume_cm3": 3.669,
+      "sha256": "8c02c95536c86f503fa8004d7f70cfd89022e37ec0a06807ad6938fb10c61ff7"
+    }
+  ]
+}

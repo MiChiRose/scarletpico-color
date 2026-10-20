@@ -1,0 +1,397 @@
+{
+  "date": "2026-10-19T17:15:49",
+  "status": "complete; recoverable in macOS Trash",
+  "trash_destination": "/Users/yuramac/.Trash/ScarletPico-CAD-cleanup-2026-10-19",
+  "summary": {
+    "scope": "hardware/case only",
+    "before_bytes": 25899395,
+    "selected_files": 62,
+    "selected_bytes": 11718146,
+    "before_stl": 61,
+    "after_stl": 31,
+    "before_png": 20,
+    "after_png": 2,
+    "kept_build_input_stl": 14,
+    "kept_current_test_and_fallback_stl": 17,
+    "targets": [
+      "hardware/case/.DS_Store",
+      "hardware/case/button-bench-R3/.DS_Store",
+      "hardware/case/button-bench-R3/ScarletPico-all-buttons-TEST.zip",
+      "hardware/case/button-bench-R3/output/00-ALL-BUTTONS-LIGHT-ONE-PLATE.stl",
+      "hardware/case/button-bench-R3/output/00-ALL-BUTTONS-TEST-ONE-PLATE.stl",
+      "hardware/case/button-bench-R3/output/02-open-board-frame-TEST.stl",
+      "hardware/case/button-bench-R3/output/03-button-retainer-R2.stl",
+      "hardware/case/button-bench-R3/output/04-dpad-R2.stl",
+      "hardware/case/button-bench-R3/output/05-four-caps-R2.stl",
+      "hardware/case/button-bench-R3/output/preview-all-buttons.png",
+      "hardware/case/button-bench-R3/output/preview-light-one-plate.png",
+      "hardware/case/button-bench-R3/split-spring-test/00-DPAD-holder-and-preload-spring-TEST.stl",
+      "hardware/case/button-bench-R3/split-spring-test/00-FULL-OUTLINE-SPRING-RETAINER.stl",
+      "hardware/case/button-bench-R3/split-spring-test/00-RECTANGULAR-CLEAN-STRAIGHT-SPRING-RETAINER.stl",
+      "hardware/case/button-bench-R3/split-spring-test/00-RECTANGULAR-SPRING-RETAINER.stl",
+      "hardware/case/button-bench-R3/split-spring-test/00-THREE-RETAINERS-AND-CAPS-ONE-PLATE.stl",
+      "hardware/case/button-bench-R3/split-spring-test/00-THREE-RETAINERS-V2-ONE-PLATE.stl",
+      "hardware/case/button-bench-R3/split-spring-test/00-UNIFIED-SPRING-RETAINER.stl",
+      "hardware/case/button-bench-R3/split-spring-test/01-DPAD-retainer-SPRING-TEST.stl",
+      "hardware/case/button-bench-R3/split-spring-test/02-AB-retainer-SPRING-TEST.stl",
+      "hardware/case/button-bench-R3/split-spring-test/03-START-SELECT-retainer-SPRING-TEST.stl",
+      "hardware/case/button-bench-R3/split-spring-test/04-DPAD-preload-spring-TEST.stl",
+      "hardware/case/button-bench-R3/split-spring-test/checks-DPAD-preload.json",
+      "hardware/case/button-bench-R3/split-spring-test/checks-clean-straight.json",
+      "hardware/case/button-bench-R3/split-spring-test/checks-full-outline.json",
+      "hardware/case/button-bench-R3/split-spring-test/checks-rectangular.json",
+      "hardware/case/button-bench-R3/split-spring-test/checks-unified.json",
+      "hardware/case/button-bench-R3/split-spring-test/checks.json",
+      "hardware/case/button-bench-R3/split-spring-test/preview-DPAD-preload.png",
+      "hardware/case/button-bench-R3/split-spring-test/preview-clean-straight.png",
+      "hardware/case/button-bench-R3/split-spring-test/preview-full-outline.png",
+      "hardware/case/button-bench-R3/split-spring-test/preview-rectangular.png",
+      "hardware/case/button-bench-R3/split-spring-test/preview-reinforced-V2.png",
+      "hardware/case/button-bench-R3/split-spring-test/preview-split-springs.png",
+      "hardware/case/button-bench-R3/split-spring-test/preview-unified.png",
+      "hardware/case/button-bench-R3/thin-retainer-test/03-button-retainer-THIN-TEST.stl",
+      "hardware/case/button-bench-R3/thin-retainer-test/checks.json",
+      "hardware/case/button-bench-R3/thin-retainer-test/preview-thin-test.png",
+      "hardware/case/output/front-DRAFT.stl",
+      "hardware/case/output/preview.png",
+      "hardware/case/output/rear-DRAFT.stl",
+      "hardware/case/rev2/ScarletPico-case-R2.zip",
+      "hardware/case/rev2/decor-preview/checks.json",
+      "hardware/case/rev2/decor-preview/decor-comparison.png",
+      "hardware/case/rev2/decor-preview/engraving-inside.png",
+      "hardware/case/rev2/decor-preview/selected-side-decor.png",
+      "hardware/case/rev2/output/06-speaker-retainer-R2.stl",
+      "hardware/case/rev2/output/07-four-LCD-clips-R2.stl",
+      "hardware/case/rev2/output/08-LCD-pad-set-OPTIONAL.stl",
+      "hardware/case/rev2/output/09-Start-Select-FIT-TEST-OPTIONAL.stl",
+      "hardware/case/rev2/output/preview-R2.png",
+      "hardware/case/rev2/output/usb-c-carrier-DRAFT.stl",
+      "hardware/case/rev2/output/usb-c-slider-PRINT-TWO.stl",
+      "hardware/case/rev3-split/.DS_Store",
+      "hardware/case/rev3-split/ScarletPico-case-R3-split.zip",
+      "hardware/case/rev3-split/output/03-button-retainer-R2.stl",
+      "hardware/case/rev3-split/output/05-four-caps-R2.stl",
+      "hardware/case/rev3-split/output/09-Start-Select-FIT-TEST-OPTIONAL.stl",
+      "hardware/case/rev3-split/output/preview-R3.png",
+      "hardware/case/usb-c-top/output/preview.png",
+      "hardware/case/usb-c-top/output/usb-c-fit-sample-OPTIONAL.stl",
+      "hardware/case/variable-depth/output/preview.png"
+    ]
+  },
+  "files": [
+    {
+      "path": "hardware/case/.DS_Store",
+      "bytes": 10244,
+      "sha256": "06ea8945e2fad8ec20b1f895b15e6eee0a28736d95e182f2e93b2652925f0d15"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/.DS_Store",
+      "bytes": 10244,
+      "sha256": "663fef8803f0ef939b1efdd702730916e94a158fab5c7e3edb4daab2204c048e"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/ScarletPico-all-buttons-TEST.zip",
+      "bytes": 504544,
+      "sha256": "c959bdb95cd4b7e37904c88ef2fe50ffbda2e826f62cc7977f73e36977d6967c"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/output/00-ALL-BUTTONS-LIGHT-ONE-PLATE.stl",
+      "bytes": 560484,
+      "sha256": "44133bc12ec76b35b7072dcfec3616baef0b8c56177e357ff0a8d5e50b4096ba"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/output/00-ALL-BUTTONS-TEST-ONE-PLATE.stl",
+      "bytes": 774984,
+      "sha256": "b9bf76c909c55f3efe3762ac94757ce6f6bbe8bf68565b7ab3c0ade23608a684"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/output/02-open-board-frame-TEST.stl",
+      "bytes": 138684,
+      "sha256": "385120644069fb8960188c7a1da85e2bc53fb9016beceb618a694758f33ea5a1"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/output/03-button-retainer-R2.stl",
+      "bytes": 173084,
+      "sha256": "032d0894c815c7db0cf7382722ac354d4826c9450eb5cf50a795069064726a8e"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/output/04-dpad-R2.stl",
+      "bytes": 63284,
+      "sha256": "2c6e016ce9cb1297ead0027cc7ef98cb37f521eaf100e36039e4651647cc34b1"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/output/05-four-caps-R2.stl",
+      "bytes": 116884,
+      "sha256": "4c5e573ccb35ea6b02d9960f6080fb0ca58386bc7ff3925a4f581fc9e7523c77"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/output/preview-all-buttons.png",
+      "bytes": 63062,
+      "sha256": "6fb94adefa7d00239b14dc3f6761cb22fe0cf2504e35d7e10f4ec481a5a0e4e5"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/output/preview-light-one-plate.png",
+      "bytes": 44216,
+      "sha256": "69812bd3aadd783b898283b5ccacf154a42fd8ca05df6f41e1c0e33fec34500e"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/00-DPAD-holder-and-preload-spring-TEST.stl",
+      "bytes": 217584,
+      "sha256": "c837ce26f4253116ec0da6e7695ed2a5b75ace4b7b65eeaff601001086c5137e"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/00-FULL-OUTLINE-SPRING-RETAINER.stl",
+      "bytes": 540884,
+      "sha256": "42a50f7dd74b1f15aa03ce19cfeec0aa00fba15bcef1b95a7c86bc3381012bfa"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/00-RECTANGULAR-CLEAN-STRAIGHT-SPRING-RETAINER.stl",
+      "bytes": 438284,
+      "sha256": "69c649a20f121bb21e221ab5321cfbb6dbe027458d106940c1227e0535de91ee"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/00-RECTANGULAR-SPRING-RETAINER.stl",
+      "bytes": 657784,
+      "sha256": "ee5b322a241a6a82b6d481227816faf4210f976f62469f6e0bc5db9743849de8"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/00-THREE-RETAINERS-AND-CAPS-ONE-PLATE.stl",
+      "bytes": 433484,
+      "sha256": "0bb5ac3f983b9d582d24a3d3731b624239ed1d54f80f840c04919cc641f2bf70"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/00-THREE-RETAINERS-V2-ONE-PLATE.stl",
+      "bytes": 341784,
+      "sha256": "8c02c95536c86f503fa8004d7f70cfd89022e37ec0a06807ad6938fb10c61ff7"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/00-UNIFIED-SPRING-RETAINER.stl",
+      "bytes": 368484,
+      "sha256": "ace66ddb766fb76703770a03e20319f7beabce5f99863c3048d80ae0e3db6b14"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/01-DPAD-retainer-SPRING-TEST.stl",
+      "bytes": 74284,
+      "sha256": "3f6fb8db9c0ded4f343aa00f41cd7b470462175afa42946e36b8832bbfa0e172"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/02-AB-retainer-SPRING-TEST.stl",
+      "bytes": 124884,
+      "sha256": "fdd5f8f227bffa9e46fa3b87ad59b727717d061458d0fd2cd6719da92eb405fe"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/03-START-SELECT-retainer-SPRING-TEST.stl",
+      "bytes": 117684,
+      "sha256": "a189c0e14e6ebbf11c3d2c98c5e8ecf616605893e10eb28c3e3418b68472c83e"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/04-DPAD-preload-spring-TEST.stl",
+      "bytes": 116984,
+      "sha256": "65bdb1199820279b3b4da92f4a61b9e9df2643d0a52ecd67226510a53cd9436d"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/checks-DPAD-preload.json",
+      "bytes": 2874,
+      "sha256": "8536ea3f102cee74976ef212ac83c5a896b1c9110e1308540db9bad11e0eacf4"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/checks-clean-straight.json",
+      "bytes": 2948,
+      "sha256": "3223f4562482fececbc8e2df4f3781c818b4ec4bc20927678928a68bfde5b178"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/checks-full-outline.json",
+      "bytes": 2229,
+      "sha256": "704b5b526680d22372b64c588007ca28bcbdcbac5af9024fa6ccdb5628a8f072"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/checks-rectangular.json",
+      "bytes": 2660,
+      "sha256": "5a8ae0aad4960f72d6656d2efb4d883ed0a4c2db042fe4613f9b9ae97000ad00"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/checks-unified.json",
+      "bytes": 2602,
+      "sha256": "9709cd8282a83a295fa506dab0be0afcac11c1e4d1edac82efdd9b511e58e21f"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/checks.json",
+      "bytes": 5373,
+      "sha256": "daab66511943c47cfc7f1c31a9c223d96bc928b60fd9e583eeb6b37904ecb5ab"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/preview-DPAD-preload.png",
+      "bytes": 105056,
+      "sha256": "ce39c05fb9c7befd8f8074a0a45a9b78f246f3ace147377c719b4f85a48c52c6"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/preview-clean-straight.png",
+      "bytes": 87853,
+      "sha256": "46008c0b1e5be4690d955af6337c0a26833b61a2488451d3c46968303f6ba922"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/preview-full-outline.png",
+      "bytes": 90688,
+      "sha256": "83d76c08b2856c2bbb22fde3e0d4ab9b3b19bd2ecde8e126e9a2d63f24d77ea0"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/preview-rectangular.png",
+      "bytes": 94660,
+      "sha256": "c63b75c0d3ef4562d9f8f95b7adaa5baa8b843c126d2b4768f9d34ec273499f9"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/preview-reinforced-V2.png",
+      "bytes": 101986,
+      "sha256": "a3844cb39da8dffb5746086b852f36418e33369fcf77db6095d32e5d1e10d0e1"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/preview-split-springs.png",
+      "bytes": 104893,
+      "sha256": "a2f71a9143924526c863b1fe1bf9c1322570be2b4bc459222990ce3a1a76256e"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/split-spring-test/preview-unified.png",
+      "bytes": 88015,
+      "sha256": "9315d94c676115ed736bfc86431003ad4d4d286c034a6347885adaa2b56647ca"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/thin-retainer-test/03-button-retainer-THIN-TEST.stl",
+      "bytes": 204284,
+      "sha256": "d097832ee2a7449b4b055956373b31c2dc3bd64f9bcfee21c2cfc309714cba75"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/thin-retainer-test/checks.json",
+      "bytes": 1699,
+      "sha256": "c1b3faf6825bd5afa921c3d6234d3df062ead23a3a86e370594b99306b704975"
+    },
+    {
+      "path": "hardware/case/button-bench-R3/thin-retainer-test/preview-thin-test.png",
+      "bytes": 44027,
+      "sha256": "a0db0dc306186d3ed21f3d6b3930ca6ab937cd8c85fb9fbc3fbc5adb69a73728"
+    },
+    {
+      "path": "hardware/case/output/front-DRAFT.stl",
+      "bytes": 456684,
+      "sha256": "2c2f1ee46bbe70bf63da1e1dd80e298d73471e043ad4d6ef4299a02d7294409c"
+    },
+    {
+      "path": "hardware/case/output/preview.png",
+      "bytes": 105680,
+      "sha256": "cd2c9f69d94bfc4f9390899f13b0369ce288031ef440a304795359f2196aa332"
+    },
+    {
+      "path": "hardware/case/output/rear-DRAFT.stl",
+      "bytes": 400284,
+      "sha256": "6a59f5dc2aef57a67d4ac1d5da3aa069e3341fc45e4f10c2d2977f15ceaf66e9"
+    },
+    {
+      "path": "hardware/case/rev2/ScarletPico-case-R2.zip",
+      "bytes": 1044599,
+      "sha256": "256df62d34de0b8507a45aaa16d9833d4cbf1618e3d0d3e43105b49782c0746d"
+    },
+    {
+      "path": "hardware/case/rev2/decor-preview/checks.json",
+      "bytes": 724,
+      "sha256": "2bb790b5cb28f39e521e138e4642a0d39b5a3e9014dab1e655dfefe17e858ed1"
+    },
+    {
+      "path": "hardware/case/rev2/decor-preview/decor-comparison.png",
+      "bytes": 97432,
+      "sha256": "7f80d357d02d929bdbc4e9da6ff2b17b57bba514873653b7be0c2962bc51e01d"
+    },
+    {
+      "path": "hardware/case/rev2/decor-preview/engraving-inside.png",
+      "bytes": 19352,
+      "sha256": "0a7f8ea3d5e8c395f270c497393c6df0472eb801b4d84579d9245e5e65703500"
+    },
+    {
+      "path": "hardware/case/rev2/decor-preview/selected-side-decor.png",
+      "bytes": 35856,
+      "sha256": "4ada071ec6c7d0e7ab5eed5e66da40e3cbaca34e2682a0a4b6e6292ec99e6347"
+    },
+    {
+      "path": "hardware/case/rev2/output/06-speaker-retainer-R2.stl",
+      "bytes": 70684,
+      "sha256": "2c0bc20a9f7022acb5df3773e250fd1c093b5f6b0ad6a5aa57966f7cfffa7fe9"
+    },
+    {
+      "path": "hardware/case/rev2/output/07-four-LCD-clips-R2.stl",
+      "bytes": 124084,
+      "sha256": "89cc5b9da138d9e5d8eef3e2f9dac2b7e3f1071b79a6f9858be23fafbabae001"
+    },
+    {
+      "path": "hardware/case/rev2/output/08-LCD-pad-set-OPTIONAL.stl",
+      "bytes": 244884,
+      "sha256": "264701e64c81ac1bda83d6bb073e0ea7a2974af80f93a1a98f9e6a455cd1e5cc"
+    },
+    {
+      "path": "hardware/case/rev2/output/09-Start-Select-FIT-TEST-OPTIONAL.stl",
+      "bytes": 192484,
+      "sha256": "67ace849551104e3f92946e071443bf519c0b458d9a0489ad1e237510726d10a"
+    },
+    {
+      "path": "hardware/case/rev2/output/preview-R2.png",
+      "bytes": 95709,
+      "sha256": "8c16598ea4c2a30fcb39170f3267c1e3f5dedc160718c1ba2d1387147fe197e0"
+    },
+    {
+      "path": "hardware/case/rev2/output/usb-c-carrier-DRAFT.stl",
+      "bytes": 30084,
+      "sha256": "fdebbc896e85541ca85e7c48d85c35e40f36e9c0b273cebbf08bc9a80e31d31c"
+    },
+    {
+      "path": "hardware/case/rev2/output/usb-c-slider-PRINT-TWO.stl",
+      "bytes": 13484,
+      "sha256": "a2e4ec5ed769f242f071ba23c017d9feb6d03ee63e110eb9d28f7a58d1386775"
+    },
+    {
+      "path": "hardware/case/rev3-split/.DS_Store",
+      "bytes": 8196,
+      "sha256": "4cb275f114f2ed68e0c60c58c8594ef9b0606ad7bb352b75fc5d58b95ab6e02a"
+    },
+    {
+      "path": "hardware/case/rev3-split/ScarletPico-case-R3-split.zip",
+      "bytes": 1109611,
+      "sha256": "0728484b80b30d83de6296a306abc7a3889508fc900c09ac89cd89a0a4094118"
+    },
+    {
+      "path": "hardware/case/rev3-split/output/03-button-retainer-R2.stl",
+      "bytes": 173084,
+      "sha256": "032d0894c815c7db0cf7382722ac354d4826c9450eb5cf50a795069064726a8e"
+    },
+    {
+      "path": "hardware/case/rev3-split/output/05-four-caps-R2.stl",
+      "bytes": 116884,
+      "sha256": "4c5e573ccb35ea6b02d9960f6080fb0ca58386bc7ff3925a4f581fc9e7523c77"
+    },
+    {
+      "path": "hardware/case/rev3-split/output/09-Start-Select-FIT-TEST-OPTIONAL.stl",
+      "bytes": 192484,
+      "sha256": "67ace849551104e3f92946e071443bf519c0b458d9a0489ad1e237510726d10a"
+    },
+    {
+      "path": "hardware/case/rev3-split/output/preview-R3.png",
+      "bytes": 110110,
+      "sha256": "24910969ec0308eab3c3b21b30b1bf6ee8f7bd9d9743405481571c1f9221b06c"
+    },
+    {
+      "path": "hardware/case/usb-c-top/output/preview.png",
+      "bytes": 98183,
+      "sha256": "ac091946d6757f2880ab93b4524d173527465e4967a28b66898bb29337c26e4a"
+    },
+    {
+      "path": "hardware/case/usb-c-top/output/usb-c-fit-sample-OPTIONAL.stl",
+      "bytes": 29284,
+      "sha256": "167a3e9a87dfaca5584d66e79f03d2e1f3eb529e7970bbbb53fa6c47bacca75f"
+    },
+    {
+      "path": "hardware/case/variable-depth/output/preview.png",
+      "bytes": 114601,
+      "sha256": "a79ce51c20c484f045a61f8bc5542d630eae0773561eac4729e67cad92367a19"
+    }
+  ],
+  "restore_note": "Move listed paths back from this Trash folder to the project, preserving relative paths. Never blindly overwrite newer files.",
+  "preserved_files_verified": true,
+  "trash_files_verified": true,
+  "after_bytes": 14198655
+}

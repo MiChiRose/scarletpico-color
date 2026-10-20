@@ -1,0 +1,141 @@
+{
+  "version": "2.2.1",
+  "source_sha256": "57bdbaaa2bedebf3797e103f4fa80e2ff975e481b9504b6bb276bbaa6c6f1964",
+  "output_sha256": "b359348d8b119e2b17a61edb7ef53ed0017785b0b365aa54b7cead081962b0b4",
+  "added_static_ram": 320,
+  "appended_code": 11416,
+  "core_renderer_apu_byte_identical": true,
+  "video_worker_only_hud_call_changed": true,
+  "hud": "LCD FPS only; unchanged completed-transfer counter",
+  "about_device": true,
+  "boot": "1.8 s capsule descent, synthesized 400 ms chime, saved volume, Start skips",
+  "boot_chime": "50% duty pulse, 1048.576 then 2080.508 Hz at 84 ms, softened attack/release",
+  "boot_scratch_reuses_existing_pcm": true,
+  "clock_profiles_mhz": [
+    125,
+    170,
+    200
+  ],
+  "default_clock_mhz": 200,
+  "rom_resident_bytes": 1568768,
+  "rom_max_bytes": 8388608,
+  "snapshot_slots": 5,
+  "snapshot_generations_per_slot": 2,
+  "modified_original_bytes": 59,
+  "changes": [
+    {
+      "address": "0x10007f08",
+      "before": "2af004fb",
+      "after": "2bf0f6fa",
+      "purpose": "features_prepare"
+    },
+    {
+      "address": "0x10007f18",
+      "before": "fef7c8ff",
+      "after": "2bf038fc",
+      "purpose": "features_load"
+    },
+    {
+      "address": "0x1000809c",
+      "before": "26f0b2fe",
+      "after": "2cf04cf8",
+      "purpose": "features_frame"
+    },
+    {
+      "address": "0x10007f5a",
+      "before": "25f051fe",
+      "after": "2af0adfd",
+      "purpose": "features_game_clock"
+    },
+    {
+      "address": "0x10007cd0",
+      "before": "27f0d0f8",
+      "after": "2bf0dcfd",
+      "purpose": "features_stop"
+    },
+    {
+      "address": "0x100082ac",
+      "before": "26f0e2fd",
+      "after": "2bf0eefa",
+      "purpose": "features_stop"
+    },
+    {
+      "address": "0x100082fc",
+      "before": "26f0bafd",
+      "after": "2bf0c6fa",
+      "purpose": "features_stop"
+    },
+    {
+      "address": "0x10007e92",
+      "before": "25f0b5fe",
+      "after": "2af047fe",
+      "purpose": "features_menu_clock"
+    },
+    {
+      "address": "0x10008168",
+      "before": "25f04afd",
+      "after": "2af0dcfc",
+      "purpose": "features_menu_clock"
+    },
+    {
+      "address": "0x100082cc",
+      "before": "25f098fc",
+      "after": "2af02afc",
+      "purpose": "features_menu_clock"
+    },
+    {
+      "address": "0x10008a30",
+      "before": "f9f7dcf8",
+      "after": "2af082fa",
+      "purpose": "features_draw_fps"
+    },
+    {
+      "address": "0x10031354",
+      "before": "fff700fa",
+      "after": "01f0a6ff",
+      "purpose": "features_boot_ui_init"
+    },
+    {
+      "address": "0x10031382",
+      "before": "fff753fe",
+      "after": "01f04dfc",
+      "purpose": "feature_settings"
+    },
+    {
+      "address": "0x100313f2",
+      "before": "fff71bfe",
+      "after": "01f015fc",
+      "purpose": "feature_settings"
+    },
+    {
+      "address": "0x10008048",
+      "before": "169401f0f7fe",
+      "after": "2cf000fa00bf",
+      "purpose": "Filtered pause chord + existing clean menu exit"
+    },
+    {
+      "address": "0x10008490",
+      "before": "00f01700",
+      "after": "00008000",
+      "purpose": "Scan allows up to 8 MiB, writer limits unchanged"
+    },
+    {
+      "address": "0x10000270",
+      "before": "e8f70120",
+      "after": "28f90120",
+      "purpose": "Reserve feature state"
+    },
+    {
+      "address": "0x1000d124",
+      "before": "e8f70120",
+      "after": "28f90120",
+      "purpose": "Reserve feature state"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "4c250310",
+      "after": "98520310",
+      "purpose": "Firmware end metadata"
+    }
+  ]
+}

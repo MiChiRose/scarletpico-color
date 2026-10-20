@@ -1,0 +1,47 @@
+{
+  "version": "2.2.2-pause-settings-test",
+  "source_sha256": "fd376fa8265701282fe4397d8ea6ae3ce193ab2e9fb1046acc568675e495feff",
+  "output_sha256": "1d1533f76eed256e7b81cc45b78b0afd9852689795fa6f51a58b510a99de2821",
+  "changes": [
+    {
+      "address": "0x10034134",
+      "before": "f0b5a64b0d001a78",
+      "after": "004b1847e16b0310",
+      "purpose": "pause_ui_frame"
+    },
+    {
+      "address": "0x10032f38",
+      "before": "70b586b003ad0400",
+      "after": "004b1847056f0310",
+      "purpose": "pause_ui_draw_fps"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "76690310",
+      "after": "34770310",
+      "purpose": "Image end metadata"
+    }
+  ],
+  "appended_code": 3380,
+  "added_static_ram": 0,
+  "native_game_size": [
+    160,
+    144
+  ],
+  "displayed_game_size": [
+    356,
+    320
+  ],
+  "black_side_rails": 62,
+  "scaling": "unchanged nearest-neighbour",
+  "fps_hud": "actual LCD completed-transfer count, bottom left, no EMU/LCD label",
+  "pause_rows": [
+    "resume",
+    "save",
+    "load",
+    "settings",
+    "library"
+  ],
+  "core_apu_video_pacing_clocks_settings_snapshots_byte_identical": true,
+  "physical_device_test_required": true
+}

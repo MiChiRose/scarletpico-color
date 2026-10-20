@@ -1,0 +1,15 @@
+CODEC {"bits": 4, "scene": "unchanged", "old_instructions": 470243, "new_instructions": 222694, "old_divisions": 360, "new_divisions": 0, "pixels_sent": 0, "instruction_reduction": 0.5264}
+CODEC {"bits": 4, "scene": "sprite", "old_instructions": 488143, "new_instructions": 235501, "old_divisions": 376, "new_divisions": 4, "pixels_sent": 1089, "instruction_reduction": 0.5176}
+CODEC {"bits": 4, "scene": "scroll", "old_instructions": 1512777, "new_instructions": 852175, "old_divisions": 1160, "new_divisions": 80, "pixels_sent": 70400, "instruction_reduction": 0.4367}
+CODEC {"bits": 4, "scene": "scattered", "old_instructions": 712885, "new_instructions": 356337, "old_divisions": 886, "new_divisions": 348, "pixels_sent": 1288, "instruction_reduction": 0.5001}
+CODEC {"bits": 4, "scene": "overflow", "old_instructions": 1300485, "new_instructions": 893267, "old_divisions": 1084, "new_divisions": 4, "pixels_sent": 113920, "instruction_reduction": 0.3131}
+SEED 4 old/new instructions+divider calls [(887051, 720), (428607, 0)]
+CODEC {"bits": 2, "scene": "unchanged", "old_instructions": 470243, "new_instructions": 205054, "old_divisions": 360, "new_divisions": 0, "pixels_sent": 0, "instruction_reduction": 0.5639}
+CODEC {"bits": 2, "scene": "sprite", "old_instructions": 488335, "new_instructions": 217434, "old_divisions": 376, "new_divisions": 4, "pixels_sent": 1089, "instruction_reduction": 0.5547}
+CODEC {"bits": 2, "scene": "scroll", "old_instructions": 1524297, "new_instructions": 806815, "old_divisions": 1160, "new_divisions": 80, "pixels_sent": 70400, "instruction_reduction": 0.4707}
+CODEC {"bits": 2, "scene": "scattered", "old_instructions": 720705, "new_instructions": 333559, "old_divisions": 904, "new_divisions": 360, "pixels_sent": 1010, "instruction_reduction": 0.5372}
+CODEC {"bits": 2, "scene": "overflow", "old_instructions": 832474, "new_instructions": 445060, "old_divisions": 1084, "new_divisions": 4, "pixels_sent": 113920, "instruction_reduction": 0.4654}
+SEED 2 old/new instructions+divider calls [(898571, 720), (401967, 0)]
+PASS differential codec: exact regions/pixels, both cache modes, first-seen palette order, multi-frame/overflow recovery, cache guards, immutable source, stack and ABI
+CODEC_STACK_BYTES 392
+FIRMWARE_SHA256 98b80f2827d626e697b83034d426b77e5fe028e1792f30edaec50a80ab963089

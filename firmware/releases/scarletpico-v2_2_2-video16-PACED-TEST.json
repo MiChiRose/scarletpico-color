@@ -1,0 +1,62 @@
+{
+  "version": "2.2.2-video16-paced-test",
+  "source_sha256": "477a17199b835994c46f6dab2dd6eccb14f757836a6521821c945c628fea1084",
+  "output_sha256": "fd376fa8265701282fe4397d8ea6ae3ce193ab2e9fb1046acc568675e495feff",
+  "changes": [
+    {
+      "address": "0x1000809c",
+      "before": "2cf04af8",
+      "after": "2ef018fc",
+      "purpose": "video_pace_entry"
+    },
+    {
+      "address": "0x100080cc",
+      "before": "00f082fd",
+      "after": "2ef008fc",
+      "purpose": "video_pace_ready"
+    },
+    {
+      "address": "0x10008374",
+      "before": "2ef058f8",
+      "after": "2ef03efa",
+      "purpose": "video_pace_perf"
+    },
+    {
+      "address": "0x1002ee40",
+      "before": "fff7fafe",
+      "after": "07f082fc",
+      "purpose": "video_pace_audio_submit"
+    },
+    {
+      "address": "0x100080a0",
+      "before": "071e",
+      "after": "0028",
+      "purpose": "Preserve explicit R7 frame_waiting; compare success without setting it"
+    },
+    {
+      "address": "0x10000270",
+      "before": "60f90120",
+      "after": "98f90120",
+      "purpose": "Zero pacing BSS at boot and exclude it from heap"
+    },
+    {
+      "address": "0x1000d124",
+      "before": "60f90120",
+      "after": "98f90120",
+      "purpose": "Zero pacing BSS at boot and exclude it from heap"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "c0640310",
+      "after": "76690310",
+      "purpose": "Image end metadata"
+    }
+  ],
+  "appended_code": 1142,
+  "added_static_ram": 56,
+  "full_height_356x320": true,
+  "fixed_30_fps_cap": false,
+  "core_apu_ui_video_clocks_byte_identical": true,
+  "changes_optional_render_scheduling_and_bounded_audio_enqueue": true,
+  "physical_performance_and_sound_not_yet_verified": true
+}

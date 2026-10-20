@@ -1,0 +1,48 @@
+{
+  "version": "2.2.2-video16-shadow-test",
+  "source_sha256": "5137a17385011e5997287db167d46d5a82c1ca36e705bad970f265b07eb7e81a",
+  "output_sha256": "477a17199b835994c46f6dab2dd6eccb14f757836a6521821c945c628fea1084",
+  "appended_code": 2752,
+  "added_static_ram": 0,
+  "old_optional_heap_bytes": 46080,
+  "new_optional_heap_bytes": [
+    23404,
+    9004
+  ],
+  "changes": [
+    {
+      "address": "0x10008b24",
+      "before": "02f0d2fe",
+      "after": "2df006f8",
+      "purpose": "video_shadow_alloc"
+    },
+    {
+      "address": "0x100089a2",
+      "before": "02f0d7ff",
+      "after": "2df01bf9",
+      "purpose": "video_shadow_seed"
+    },
+    {
+      "address": "0x1003588e",
+      "before": "cbf7bdfe",
+      "after": "00f0bbf9",
+      "purpose": "video_shadow_changed"
+    },
+    {
+      "address": "0x10008374",
+      "before": "2df09cfa",
+      "after": "2ef058f8",
+      "purpose": "video_shadow_perf"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "77590310",
+      "after": "c0640310",
+      "purpose": "Image end metadata"
+    }
+  ],
+  "full_height_356x320": true,
+  "lossless_colours": true,
+  "core_audio_ui_clocks_unchanged": true,
+  "physical_fps_not_yet_measured": true
+}

@@ -1,0 +1,43 @@
+{
+  "version": "2.2.1-video-dma-test",
+  "source_sha256": "b359348d8b119e2b17a61edb7ef53ed0017785b0b365aa54b7cead081962b0b4",
+  "output_sha256": "0956e84d4d81afd65dc29d164e058a129e00cbf645bff73ea3d6746a643162a3",
+  "appended_code": 248,
+  "added_static_ram": 8,
+  "changes": [
+    {
+      "address": "0x100005aa",
+      "before": "1ff001ff",
+      "after": "34f0a9fe",
+      "purpose": "Only scaled game-row SPI transfer"
+    },
+    {
+      "address": "0x100005ee",
+      "before": "1ff0dffe",
+      "after": "34f087fe",
+      "purpose": "Only scaled game-row SPI transfer"
+    },
+    {
+      "address": "0x10000270",
+      "before": "28f90120",
+      "after": "30f90120",
+      "purpose": "Reserve channel state outside heap"
+    },
+    {
+      "address": "0x1000d124",
+      "before": "28f90120",
+      "after": "30f90120",
+      "purpose": "Reserve channel state outside heap"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "98520310",
+      "after": "f8530310",
+      "purpose": "Image end metadata"
+    }
+  ],
+  "core_main_worker_audio_ui_features_byte_identical": true,
+  "clocks_unchanged": true,
+  "lcd_format_resolution_unchanged": true,
+  "physical_fps_not_yet_measured": true
+}
