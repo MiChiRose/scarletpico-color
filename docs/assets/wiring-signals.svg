@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1130" role="img" aria-label="ScarletPico · сигналы RP2040-Zero">
+<title>ScarletPico · сигналы RP2040-Zero</title>
+<style>text{font-family:Arial,DejaVu Sans,sans-serif;fill:#202a35} .small{font-size:21px;fill:#56636f} .label{font-size:24px} .head{font-size:28px;font-weight:700} .wire{fill:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="1600" height="1130" fill="#f7f7f2"/>
+<text x="55" y="64" font-size="36" font-weight="700">ScarletPico · сигналы RP2040-Zero</text>
+<text x="55" y="107" class="small">GPIO-номера, не номера ножек. Логическая схема: положение контактов на плате не показано.</text>
+<rect x="60" y="160" width="480" height="440" rx="18" fill="#fff" stroke="#d6dcd9" stroke-width="2"/>
+<text x="84" y="203" class="head">TFT ST7796 + microSD · SPI0</text>
+<rect x="720" y="160" width="250" height="790" rx="18" fill="#fff" stroke="#d6dcd9" stroke-width="2"/>
+<text x="744" y="203" class="head">RP2040-Zero</text>
+<text x="747" y="237" class="small">Логика 3,3 В</text>
+<text x="84" y="292" class="small">SCK / CLK → TFT и microSD</text>
+<polyline points="540,285 720,285" class="wire" stroke="#257e7c"/>
+<circle cx="720" cy="285" r="6" fill="#257e7c"/>
+<text x="741" y="292" class="label">GP6</text>
+<text x="84" y="331" class="small">MOSI / SDI / DI → оба модуля</text>
+<polyline points="540,324 720,324" class="wire" stroke="#257e7c"/>
+<circle cx="720" cy="324" r="6" fill="#257e7c"/>
+<text x="741" y="331" class="label">GP7</text>
+<text x="84" y="370" class="small">MISO / DO ← microSD</text>
+<polyline points="540,363 720,363" class="wire" stroke="#257e7c"/>
+<circle cx="720" cy="363" r="6" fill="#257e7c"/>
+<text x="741" y="370" class="label">GP4</text>
+<text x="84" y="409" class="small">TFT · CS</text>
+<polyline points="540,402 720,402" class="wire" stroke="#257e7c"/>
+<circle cx="720" cy="402" r="6" fill="#257e7c"/>
+<text x="741" y="409" class="label">GP5</text>
+<text x="84" y="448" class="small">TFT · DC / RS</text>
+<polyline points="540,441 720,441" class="wire" stroke="#257e7c"/>
+<circle cx="720" cy="441" r="6" fill="#257e7c"/>
+<text x="741" y="448" class="label">GP8</text>
+<text x="84" y="487" class="small">TFT · RESET / RST</text>
+<polyline points="540,480 720,480" class="wire" stroke="#257e7c"/>
+<circle cx="720" cy="480" r="6" fill="#257e7c"/>
+<text x="741" y="487" class="label">GP9</text>
+<text x="84" y="526" class="small">TFT · BL / LED, управление</text>
+<polyline points="540,519 720,519" class="wire" stroke="#257e7c"/>
+<circle cx="720" cy="519" r="6" fill="#257e7c"/>
+<text x="741" y="526" class="label">GP10</text>
+<text x="84" y="565" class="small">microSD · CS</text>
+<polyline points="540,558 720,558" class="wire" stroke="#257e7c"/>
+<circle cx="720" cy="558" r="6" fill="#257e7c"/>
+<text x="741" y="565" class="label">GP3</text>
+<text x="84" y="635" class="small">TFT SDO/MISO — только если это</text>
+<text x="84" y="667" class="small">проверенный 3-state выход 3,3 В.</text>
+<rect x="60" y="705" width="480" height="220" rx="18" fill="#fff" stroke="#d6dcd9" stroke-width="2"/>
+<text x="84" y="748" class="head">MAX98357A · I2S</text>
+<text x="84" y="792" class="label">BCLK</text>
+<polyline points="540,785 720,785" class="wire" stroke="#2563a1"/>
+<circle cx="720" cy="785" r="6" fill="#2563a1"/>
+<text x="741" y="792" class="label">GP11</text>
+<text x="84" y="835" class="label">LRC / LRCLK / WS</text>
+<polyline points="540,828 720,828" class="wire" stroke="#2563a1"/>
+<circle cx="720" cy="828" r="6" fill="#2563a1"/>
+<text x="741" y="835" class="label">GP12</text>
+<text x="84" y="878" class="label">DIN</text>
+<polyline points="540,871 720,871" class="wire" stroke="#2563a1"/>
+<circle cx="720" cy="871" r="6" fill="#2563a1"/>
+<text x="741" y="878" class="label">GP13</text>
+<rect x="1130" y="160" width="410" height="470" rx="18" fill="#fff" stroke="#d6dcd9" stroke-width="2"/>
+<text x="1154" y="203" class="head">Кнопки · замыкание на GND</text>
+<polyline points="970,275 1130,275" class="wire" stroke="#c63353"/>
+<circle cx="970" cy="275" r="6" fill="#c63353"/>
+<text x="985" y="265" class="small" style="fill:#c63353">GP0</text>
+<text x="1154" y="283" class="label">Вверх</text>
+<polyline points="970,318 1130,318" class="wire" stroke="#c63353"/>
+<circle cx="970" cy="318" r="6" fill="#c63353"/>
+<text x="985" y="308" class="small" style="fill:#c63353">GP1</text>
+<text x="1154" y="326" class="label">Вниз</text>
+<polyline points="970,361 1130,361" class="wire" stroke="#c63353"/>
+<circle cx="970" cy="361" r="6" fill="#c63353"/>
+<text x="985" y="351" class="small" style="fill:#c63353">GP2</text>
+<text x="1154" y="369" class="label">Влево</text>
+<polyline points="970,404 1130,404" class="wire" stroke="#c63353"/>
+<circle cx="970" cy="404" r="6" fill="#c63353"/>
+<text x="985" y="394" class="small" style="fill:#c63353">GP14</text>
+<text x="1154" y="412" class="label">Вправо</text>
+<polyline points="970,447 1130,447" class="wire" stroke="#c63353"/>
+<circle cx="970" cy="447" r="6" fill="#c63353"/>
+<text x="985" y="437" class="small" style="fill:#c63353">GP15</text>
+<text x="1154" y="455" class="label">A</text>
+<polyline points="970,490 1130,490" class="wire" stroke="#c63353"/>
+<circle cx="970" cy="490" r="6" fill="#c63353"/>
+<text x="985" y="480" class="small" style="fill:#c63353">GP26</text>
+<text x="1154" y="498" class="label">B</text>
+<polyline points="970,533 1130,533" class="wire" stroke="#c63353"/>
+<circle cx="970" cy="533" r="6" fill="#c63353"/>
+<text x="985" y="523" class="small" style="fill:#c63353">GP27</text>
+<text x="1154" y="541" class="label">Start</text>
+<polyline points="970,576 1130,576" class="wire" stroke="#c63353"/>
+<circle cx="970" cy="576" r="6" fill="#c63353"/>
+<text x="985" y="566" class="small" style="fill:#c63353">GP28</text>
+<text x="1154" y="584" class="label">Select</text>
+<text x="1154" y="661" class="small">Внутренние pull-up; нажато = LOW.</text>
+<rect x="1130" y="720" width="410" height="205" rx="18" fill="#fff" stroke="#d6dcd9" stroke-width="2"/>
+<text x="1154" y="763" class="head">Аккумулятор · ADC3</text>
+<polyline points="970,806 1130,806" class="wire" stroke="#2563a1"/>
+<circle cx="970" cy="806" r="6" fill="#2563a1"/>
+<text x="985" y="790" class="small" style="fill:#2563a1">GP29</text>
+<text x="1154" y="807" class="label">Выход делителя 4,7k / 4,7k</text>
+<text x="1154" y="851" class="small">4,20 В → около 2,10 В</text>
+<text x="1154" y="890" class="small" style="fill:#c63353">Не 5V и не контакт 3V3.</text>
+<text x="55" y="1005" class="label">Питание — отдельная схема. Общая земля сигналов: защищённый OUT− TP4056.</text>
+<text x="55" y="1048" class="small">SD питается от 3V3; питание конкретного TFT и его BL/IM проверить по модулю.</text>
+<text x="55" y="1085" class="small">GP16–25 не требуются. GP26–28 заняты кнопками. Зарядные CHRG/STDBY к MCU не подключены.</text>
+</svg>

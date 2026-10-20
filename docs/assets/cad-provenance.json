@@ -1,0 +1,14 @@
+{
+  "input_sha256": {
+    "hardware/case/rev3-split/output/01-front-R3-LCD-3mm.stl": "8c82e9eda21802c7fd7b86f4c763c57e4ba09c8c38fe06eb04e3927ee6a7f24d",
+    "hardware/case/rev3-split/output/04-dpad-R2.stl": "2c6e016ce9cb1297ead0027cc7ef98cb37f521eaf100e36039e4651647cc34b1",
+    "hardware/case/button-bench-R3/split-spring-test/04-four-matching-caps-SPRING-TEST.stl": "52fe14eb1f7a544bd3c833d1530ea81f09266be1669ff0257ba63388678a57e6",
+    "hardware/case/rev2/output/02-rear-R2.stl": "42277447f99a324c1aa16ee2ae33b70567dcdbff399fc840e84a974694d9c600",
+    "hardware/case/rev3-split/output/02a-rear-upper-R3.stl": "6b7a050237f461152f579b73e3f8f21a95eafaa57d077bfbb33f8042caa4ecd6",
+    "hardware/case/rev3-split/output/02b-rear-transition-R3.stl": "cd1a5d6a195440c18f266d11efdd245e6d282a5e404311ebe1207b977948d2ae",
+    "hardware/case/rev3-split/output/02c-rear-lower-R3.stl": "7de7983742c9fa25d1d704f495c31cd7bc28e97ddc050d60969db27b4c65b004"
+  },
+  "print_models_modified": false,
+  "screen": "unpowered schematic envelope; no invented gameplay",
+  "materials": "illustrative colours; front R3, whole rear R2, split rear R3"
+}

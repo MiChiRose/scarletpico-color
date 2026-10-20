@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1080" role="img" aria-label="ScarletPico · питание и измерение батареи">
+<title>ScarletPico · питание и измерение батареи</title>
+<style>text{font-family:Arial,DejaVu Sans,sans-serif;fill:#202a35} .small{font-size:21px;fill:#56636f} .label{font-size:24px} .head{font-size:28px;font-weight:700} .wire{fill:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="1800" height="1080" fill="#f7f7f2"/>
+<text x="55" y="64" font-size="36" font-weight="700">ScarletPico · питание и измерение батареи</text>
+<text x="55" y="107" class="small">Одноэлементный Li-ion/LiPo 4,2 В · TP4056 с защитой · повышайка с общим минусом</text>
+<rect x="55" y="175" width="270" height="170" rx="18" fill="#fff" stroke="#d6dcd9" stroke-width="2"/>
+<text x="79" y="218" class="head">USB-C · зарядка</text>
+<text x="80" y="255" class="label" style="fill:#c63353">VBUS / +5V</text>
+<text x="80" y="306" class="label">GND</text>
+<rect x="450" y="175" width="330" height="235" rx="18" fill="#fff" stroke="#d6dcd9" stroke-width="2"/>
+<text x="474" y="218" class="head">TP4056 + защита</text>
+<text x="470" y="255" class="label" style="fill:#c63353">IN+</text>
+<text x="470" y="306" class="label">IN−</text>
+<text x="680" y="255" class="label" style="fill:#c63353">OUT+</text>
+<text x="680" y="355" class="label">OUT−</text>
+<text x="520" y="388" class="label">B+</text>
+<text x="635" y="388" class="label">B−</text>
+<polyline points="325,247 450,247" class="wire" stroke="#c63353"/>
+<polyline points="325,298 450,298" class="wire" stroke="#202a35"/>
+<rect x="450" y="520" width="330" height="135" rx="18" fill="#fff" stroke="#d6dcd9" stroke-width="2"/>
+<text x="474" y="563" class="head">Аккумулятор · 1S</text>
+<text x="475" y="613" class="small">+ / − только к B+ / B−</text>
+<polyline points="550,410 550,520" class="wire" stroke="#c63353"/>
+<polyline points="650,410 650,520" class="wire" stroke="#202a35"/>
+<text x="820" y="183" class="small">SW1 · выключатель</text>
+<polyline points="780,247 850,247" class="wire" stroke="#c63353"/>
+<circle cx="850" cy="247" r="6" fill="#c63353"/>
+<circle cx="980" cy="247" r="6" fill="#c63353"/>
+<polyline points="850,247 961,210" class="wire" stroke="#c63353"/>
+<polyline points="980,247 1110,247" class="wire" stroke="#c63353"/>
+<rect x="1110" y="175" width="270" height="235" rx="18" fill="#fff" stroke="#d6dcd9" stroke-width="2"/>
+<text x="1134" y="218" class="head">Повышайка</text>
+<text x="1130" y="258" class="label" style="fill:#c63353">IN+</text>
+<text x="1130" y="355" class="label">IN−</text>
+<text x="1250" y="258" class="label" style="fill:#c63353">OUT+ 5V</text>
+<text x="1250" y="355" class="label">OUT−</text>
+<text x="1130" y="395" class="small">Общий IN− / OUT−</text>
+<rect x="1490" y="175" width="255" height="265" rx="18" fill="#fff" stroke="#d6dcd9" stroke-width="2"/>
+<text x="1514" y="218" class="head">RP2040-Zero</text>
+<text x="1510" y="258" class="label" style="fill:#c63353">5V</text>
+<text x="1510" y="355" class="label">GND</text>
+<text x="1570" y="411" class="small" style="fill:#2563a1">GP29 / ADC3</text>
+<polyline points="1380,247 1490,247" class="wire" stroke="#c63353"/>
+<polyline points="780,347 850,347 850,820 1640,820" class="wire" stroke="#202a35"/>
+<polyline points="850,347 1110,347" class="wire" stroke="#202a35"/>
+<polyline points="1380,347 1450,347 1490,347" class="wire" stroke="#202a35"/>
+<polyline points="1450,347 1450,820" class="wire" stroke="#202a35"/>
+<circle cx="1450" cy="820" r="6" fill="#202a35"/>
+<text x="60" y="740" class="small">Защита аккумулятора не должна</text>
+<text x="60" y="778" class="small">обходиться общей перемычкой.</text>
+<text x="60" y="830" class="label" style="fill:#c63353">B− / IN− ≠ системный OUT−</text>
+<circle cx="1040" cy="247" r="6" fill="#c63353"/>
+<circle cx="1040" cy="347" r="9" fill="#f7f7f2"/>
+<polyline points="1040,247 1040,480" class="wire" stroke="#c63353"/>
+<rect x="1018" y="480" width="44" height="100" fill="#fff" stroke="#2563a1" stroke-width="4"/>
+<text x="865" y="498" class="small" style="fill:#2563a1">R1 · 4,7 кОм</text>
+<text x="900" y="536" class="small">472</text>
+<polyline points="1040,580 1040,650" class="wire" stroke="#2563a1"/>
+<circle cx="1040" cy="650" r="6" fill="#2563a1"/>
+<circle cx="1450" cy="650" r="9" fill="#f7f7f2"/>
+<polyline points="1040,650 1640,650 1640,440" class="wire" stroke="#2563a1"/>
+<text x="1120" y="610" class="label" style="fill:#2563a1">Общая точка → GP29</text>
+<polyline points="1040,650 1040,680" class="wire" stroke="#2563a1"/>
+<rect x="1018" y="680" width="44" height="100" fill="#fff" stroke="#2563a1" stroke-width="4"/>
+<text x="865" y="720" class="small" style="fill:#2563a1">R2 · 4,7 кОм</text>
+<text x="900" y="758" class="small">472</text>
+<polyline points="1040,780 1040,820" class="wire" stroke="#202a35"/>
+<circle cx="1040" cy="820" r="6" fill="#202a35"/>
+<polyline points="1230,650 1230,700" class="wire" stroke="#2563a1"/>
+<circle cx="1230" cy="650" r="6" fill="#2563a1"/>
+<polyline points="1195,700 1265,700" class="wire" stroke="#2563a1"/>
+<polyline points="1195,723 1265,723" class="wire" stroke="#2563a1"/>
+<polyline points="1230,723 1230,820" class="wire" stroke="#202a35"/>
+<circle cx="1230" cy="820" r="6" fill="#202a35"/>
+<text x="1275" y="705" class="small">C1 · керамика</text>
+<text x="1275" y="747" class="small">100 нФ…1 мкФ</text>
+<text x="1275" y="785" class="small">без полярности</text>
+<text x="1030" y="865" class="small">OUT− / общий GND системы</text>
+<text x="55" y="940" class="label" style="fill:#2563a1">R1 берёт плюс ПОСЛЕ выключателя, ДО повышайки. При 4,20 В на входе: GP29 ≈ 2,10 В.</text>
+<text x="55" y="987" class="small">Сначала проверить делитель мультиметром без GP29. Пайка — только с отключёнными аккумулятором и USB.</text>
+<text x="55" y="1026" class="small">Нет проверенного power-path для одновременного USB и батареи. Номинал C1 с донора не подтверждён.</text>
+</svg>

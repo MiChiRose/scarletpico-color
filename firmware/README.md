@@ -14,7 +14,7 @@ whereas both native 2.2.5 variants do not. This append-only battery extension
 preserves the old LCD initialization/transport, core, clocks and 356x320 game.
 New firmware still needs physical acceptance; the base has been accepted.
 
-**Latest RP2040 build for the assembled divider (2026-10-20):**
+**Historical native RP2040 divider test (2026-10-20; superseded):**
 [v2.2.5 GP29-only battery + voltage](releases/2026-10-20-rp2040-gp29/README-RU.md).
 **Device report: menu unreadable; NOT hardware-accepted.** Separate
 [LCD12 diagnostic build](releases/2026-10-20-rp2040-gp29-lcd12-check/README-RU.md)

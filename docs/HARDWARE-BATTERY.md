@@ -1,4 +1,9 @@
-# Battery voltage monitor — current GP29-only hardware
+# Battery voltage monitor — development history
+
+> **Актуальная схема 2.2.7:** [PINOUT.md](PINOUT.md#питание), включая
+> выключатель **до** повышайки и два резистора **472** к GP29.
+> Ниже сохранена история экспериментов. Предложения GP18/19, BAT2 и старое
+> положение выключателя не описывают нынешнюю сборку; не смешивать их с ней.
 
 Update, 2026-10-20: user confirmed the previous 2.2.2 SHADOW FAST works with
 the same assembled circuit. Both new native 2.2.5/LCD12 builds fail to display
