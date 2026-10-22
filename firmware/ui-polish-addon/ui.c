@@ -2,6 +2,14 @@
  * Uses its original pixel font, RGB565 palette and LCD transport. */
 #include "../ui-addon/ui.h"
 
+#ifndef SCARLET_UI_VERSION
+#define SCARLET_UI_VERSION "2.2.7"
+#endif
+#ifdef SCARLET_LIBRARY_PAGING
+extern unsigned library_total_count(void);
+extern unsigned library_window_offset(void);
+#endif
+
 extern void legacy_battery_header(unsigned,unsigned,unsigned,unsigned,uint16_t);
 extern void old_features_ui_init(const uint8_t *);
 extern void old_boot_draw(int,int);
@@ -28,7 +36,7 @@ void polished_header(void) {
  ui_text(16,13,"SCARLET",UI_ACCENT,UI_SURFACE,3,7);
  ui_text(154,13,"PICO",UI_TEXT,UI_SURFACE,3,4);
  ui_text(242,20,"COLOR",UI_TEAL,UI_SURFACE,1,5);
- ui_text(312,20,"2.2.7",UI_MUTED,UI_SURFACE,1,5);
+ ui_text(312,20,SCARLET_UI_VERSION,UI_MUTED,UI_SURFACE,1,5);
  legacy_battery_header(0,46,480,2,UI_ACCENT);
 }
 void polished_invalidate(void) {
@@ -37,13 +45,26 @@ void polished_invalidate(void) {
  p[0]=p[1]=p[2]=0;valid=false;
 }
 static unsigned number(unsigned n,char *out) {
+#ifdef SCARLET_LIBRARY_PAGING
+ char reverse[10];unsigned len=0;
+ do{reverse[len++]='0'+n%10;n/=10;}while(n);
+ for(unsigned i=0;i<len;i++)out[i]=reverse[len-1-i];
+ return len;
+#else
  unsigned len=0;if(n>=10)out[len++]='0'+n/10;
  out[len++]='0'+n%10;return len;
+#endif
 }
 static void counter(unsigned selected,unsigned count) {
+#ifdef SCARLET_LIBRARY_PAGING
+ char s[24];unsigned n=number(count?library_window_offset()+selected+1:0,s);
+ s[n++]=' ';s[n++]='/';s[n++]=' ';n+=number(library_total_count(),s+n);s[n]=0;
+ ui_rect(294,58,170,10,UI_BG);text(464-n*6,59,s,UI_MUTED,1,n);
+#else
  char s[12];unsigned n=number(count?selected+1:0,s);
  s[n++]=' ';s[n++]='/';s[n++]=' ';n+=number(count,s+n);s[n]=0;
  ui_rect(384,58,80,10,UI_BG);text(464-n*6,59,s,UI_MUTED,1,n);
+#endif
 }
 static void label(unsigned index,char out[88]) {
  const char *s=ui_game_label(index);unsigned bytes=0,chars=0;

@@ -66,6 +66,9 @@ and reduces UI delays. These are menu improvements, not a promise of the
 same FPS in every game. Compatibility and speed depend on the ROM and its
 memory controller; the entire GB/GBC catalog is not universally supported.
 
+Version **2.2.8** removes the first-32-ROM library limit: small windows are
+loaded as you browse, while the counter shows the complete catalogue size.
+
 <details>
 <summary>Watch the actual boot animation</summary>
 
@@ -140,7 +143,7 @@ fit and button travel.
 
 ## ⚡ Firmware
 
-Current file: **[ScarletPico 2.2.7 · RP2040 · UF2](firmware/releases/2026-10-20-rp2040-ui-polish/ScarletPico-v2_2_7-RP2040-UI-POLISH.uf2)**.
+Current file: **[ScarletPico 2.2.8 · RP2040 · UF2](firmware/releases/2026-10-22-rp2040-library-paging/ScarletPico-v2_2_8-RP2040-LIBRARY-PAGING.uf2)**.
 
 1. Turn the handheld off and disconnect its battery / external assembly power.
 2. Hold **BOOT / BOOTSEL** on the RP2040-Zero and connect a USB data cable.
@@ -154,7 +157,8 @@ from GitHub, microSD setup, initial checks, and rolling back safely.
 
 | Version | Purpose |
 |---|---|
-| [2.2.7](firmware/releases/2026-10-20-rp2040-ui-polish/README-RU.md) | Current UI update. ARM tests pass; full physical acceptance testing is still needed. |
+| [2.2.8](firmware/releases/2026-10-22-rp2040-library-paging/README-RU.md) | Complete catalogue without the old 32-ROM cap. ARM tests pass; the user confirmed it works on the handheld on 2026-10-22. |
+| [2.2.7](firmware/releases/2026-10-20-rp2040-ui-polish/README-RU.md) | Previous UI release, preserved for rollback. |
 | [2.2.6](firmware/releases/2026-10-20-rp2040-legacy222-battery/README-RU.md) | Previous working base with GP29 battery monitoring, available for rollback. |
 | [2.2.2](firmware/releases/2026-10-07-rp2040-native-menu/01-ScarletPico-v2_2_2-RP2040-ROLLBACK.uf2) | Version verified on the handheld before battery monitoring was added. |
 
@@ -164,7 +168,7 @@ are kept for development history, not as recommended updates.
 ## Where the project is heading
 
 - Refine fit and button feel through physical testing.
-- Validate 2.2.7 on the assembled handheld: games, audio, saves, and battery monitoring.
+- Expand game compatibility checks and long-session testing.
 - Bring the latest features to RP2350 and compare behavior on the new board.
 - Simplify repeat builds and gradually move toward a unified, reproducible
   source-based build.
@@ -179,9 +183,9 @@ issues, include the material, part orientation, and a photo.
 - [Sources, builds, and architectural limitations](DEVELOPMENT.md).
 - [Current UI](firmware/ui-polish-addon/) and [battery monitor](firmware/battery-legacy-addon/).
 - [Experimental RP2350 port](firmware/imported/scarletpico-rp2350-source/).
-- [Firmware history](firmware/README.md) and [2.2.7 validation](firmware/releases/2026-10-20-rp2040-ui-polish/VALIDATION.md).
+- [Firmware history](firmware/README.md) and [2.2.8 validation](firmware/releases/2026-10-22-rp2040-library-paging/VALIDATION.md).
 
-The current 2.2.7 build uses our C/ASM additions on top of a pinned binary
+The current 2.2.8 build uses our C/ASM additions on top of a pinned binary
 base; it is not a complete source rebuild of the historical emulator.
 The base and build scripts are preserved. See the development documentation
 for details.

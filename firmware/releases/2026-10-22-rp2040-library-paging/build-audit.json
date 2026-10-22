@@ -1,0 +1,132 @@
+{
+  "version": "2.2.8-library-paging",
+  "source_sha256": "2be5dd4d37001167a77501174ce02ba3d59a21e555b4ff6b87a2620b8c6f34c0",
+  "uf2_sha256": "8e0a7d0b898812ad8b3b899caf189172cc4307b4b35bfc42225050b49bbe60ba",
+  "image_sha256": "b1510bb4b8f1dfd4b55505301014b21801e73e6eae9c381d848720ffa1a9d90e",
+  "elf_sha256": "44718ba9b2c5cc2cb8c765973c2fecaa400170fd3a6b03a0506c762c95ae4953",
+  "rollback_path": "releases/2026-10-20-rp2040-ui-polish/ScarletPico-v2_2_7-RP2040-UI-POLISH.uf2",
+  "automatically_flashed": false,
+  "hardware_tested": false,
+  "window_entries": 28,
+  "original_array_entries": 32,
+  "catalogue_count_bits": 32,
+  "new_catalogue_heap_allocations": 0,
+  "added_static_ram": 32,
+  "appended_code_bytes": 4488,
+  "changes": [
+    {
+      "address": "0x10030814",
+      "before": "004b1847758a0310",
+      "after": "004b1847419d0310",
+      "purpose": "polished_header"
+    },
+    {
+      "address": "0x100308cc",
+      "before": "004b1847198b0310",
+      "after": "004b1847e59d0310",
+      "purpose": "polished_invalidate"
+    },
+    {
+      "address": "0x10030b20",
+      "before": "004b18473d8b0310",
+      "after": "004b1847099e0310",
+      "purpose": "polished_menu_draw"
+    },
+    {
+      "address": "0x10031428",
+      "before": "f8b506000f001400",
+      "after": "10b508f0cffa10bd",
+      "purpose": "Bounded globally sorted catalogue; preserve all four scanner arguments"
+    },
+    {
+      "address": "0x100314be",
+      "before": "07f001f9",
+      "after": "08f0c3fa",
+      "purpose": "Consume window-boundary key before old navigation"
+    },
+    {
+      "address": "0x10007bd0",
+      "before": "02243d40",
+      "after": "31f0eafe",
+      "purpose": "Route held-key repeats through the same boundary handler"
+    },
+    {
+      "address": "0x10000270",
+      "before": "d0f90120",
+      "after": "f0f90120",
+      "purpose": "Reserve and zero paging/UI state"
+    },
+    {
+      "address": "0x1000d124",
+      "before": "d0f90120",
+      "after": "f0f90120",
+      "purpose": "Reserve and zero paging/UI state"
+    },
+    {
+      "address": "0x100223a0",
+      "before": "7c940310",
+      "after": "88a60310",
+      "purpose": "Image end metadata"
+    },
+    {
+      "address": "0x10034836",
+      "before": "76322e322e37",
+      "after": "76322e322e38",
+      "purpose": "About version"
+    }
+  ],
+  "protected_byte_ranges": [
+    [
+      792,
+      8216
+    ],
+    [
+      9208,
+      29028
+    ],
+    [
+      30912,
+      33708
+    ],
+    [
+      33904,
+      36112
+    ],
+    [
+      190464,
+      196119
+    ],
+    [
+      206080,
+      230400
+    ],
+    [
+      230400,
+      231680
+    ]
+  ],
+  "protected_range_exemptions": [
+    {
+      "offset": 215094,
+      "length": 6,
+      "purpose": "About version literal only"
+    },
+    {
+      "offset": 31696,
+      "length": 4,
+      "purpose": "Held-key input hook only"
+    }
+  ],
+  "compiler": "arm-none-eabi-gcc (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623",
+  "source_files": {
+    "library-paging-addon/library.c": "82522aaa96547343cd78a17a6b361bb21b182993fbe4e80197bfd659ef2de42c",
+    "library-paging-addon/library.ld": "d8eafccfbe2f39e7d0ee58b8125658dafafea55fb322dab879404d9a9f7291d5",
+    "ui-polish-addon/ui.c": "835b37a88a748f4b0424796a8c9021aaf9a03162ad91df70adc12f551c22bcb1",
+    "tools/build_library_paging_release.py": "8a831416d7a5da44419f9be2ca9a7e2e676f1a54139bbc85eb462d9406e7165d",
+    "tests/test_library_paging_arm.py": "15d663738ba2765a15fb51f992f29b1c27479ee0772d098acdf2e404d9ce2b56",
+    "include/game_library.h": "7bc820b361aae816d80981a0a25381bd69545e23c87045046eb170c223a311e4",
+    "ui-addon/ui.h": "4309bb31f71e02b320bec1eadfe4a8294bce21fd9f4d8277f558e06772a7a63a",
+    "vendor/pico-fatfs-sd/lib/fatfs/source/ff.h": "8e25d1136df72c7c8b6d4dde20e3a83f9e42b47cd2603125ee13b8fdaed320dc",
+    "vendor/pico-fatfs-sd/src/include/ffconf.h": "04651f980c7cff3fd8da1f3b7bbc3e71c1ba4c3a303a230bd960ff3a009b39b5"
+  }
+}

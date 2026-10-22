@@ -12,6 +12,24 @@
    `firmware/tools/build_legacy_battery_release.py` → 2.2.6.
 3. UI: `firmware/ui-polish-addon/`,
    `firmware/tools/build_ui_polish_release.py` → 2.2.7.
+4. Полный каталог: `firmware/library-paging-addon/`,
+   `firmware/tools/build_library_paging_release.py` → 2.2.8.
+   Это отдельная добавка к точной 2.2.7, без пересборки старого эмулятора.
+
+Актуальная сборка/проверка каталога:
+
+```sh
+python3 firmware/tools/build_library_paging_release.py --arm-bin /path/to/arm-none-eabi/bin
+python3 firmware/tests/test_library_paging_arm.py
+SCARLET_HEAP_IMAGE=firmware/build-library-paging-addon/patched.bin python3 firmware/tests/test_video_heap_arm.py
+```
+
+См. [примечания 2.2.8](firmware/releases/2026-10-22-rp2040-library-paging/README-RU.md).
+`GAME_LIBRARY_MAX=32` в историческом заголовке сохраняет ABI старого массива;
+это больше не общий предел каталога в 2.2.8. Новый сканер держит 28 записей,
+общий счётчик и смещение; на границах перечитывает следующий отсортированный
+блок. На очень больших каталогах обмен RAM на повторное чтение SD заметен
+по задержке, но не отнимает память у эмулятора или сохранений.
 
 Сборщики проверяют SHA входа и старые байты перед патчами. Не подставлять
 похожий UF2. С Arm GNU Toolchain 14.3.Rel1 ожидается SHA256 прошивки 2.2.7:

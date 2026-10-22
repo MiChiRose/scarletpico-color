@@ -1,0 +1,23 @@
+{
+  "uf2_sha256": "8e0a7d0b898812ad8b3b899caf189172cc4307b4b35bfc42225050b49bbe60ba",
+  "actual_arm": true,
+  "hardware_tested": false,
+  "tested_counts": [
+    0,
+    1,
+    7,
+    27,
+    28,
+    29,
+    32,
+    47,
+    56,
+    57,
+    128,
+    1000
+  ],
+  "mounted_card_roms": null,
+  "added_static_ram_bytes": 32,
+  "new_catalogue_heap_allocations": 0,
+  "minimum_observed_test_stack": "0x20040b68"
+}

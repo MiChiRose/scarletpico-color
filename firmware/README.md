@@ -1,5 +1,15 @@
 # ScarletPico Color firmware
 
+**Latest RP2040 library update (2026-10-22):**
+[v2.2.8 LIBRARY PAGING](releases/2026-10-22-rp2040-library-paging/README-RU.md).
+Removes the 32-total-ROM cap using globally sorted 28-entry windows in the
+existing array. Normal keys and held-key repeats cross windows; the counter
+shows the full catalogue. Based on the exact working 2.2.7, with just 32 new
+static RAM bytes and no catalogue heap allocation. Computer ARM tests cover
+the user's 47 ROMs and a synthetic 1000-ROM directory. The user confirmed
+the update works on the handheld on 2026-10-22; this is not a full hardware
+test matrix. LCD/core/audio/battery/save code is preserved. No automatic flash.
+
 **Latest RP2040 UI candidate (2026-10-20):**
 [v2.2.7 UI POLISH](releases/2026-10-20-rp2040-ui-polish/README-RU.md).
 Based on the user's working 2.2.6, preserving its LCD/game/audio/clock/battery
