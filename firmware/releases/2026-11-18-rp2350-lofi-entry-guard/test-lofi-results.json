@@ -1,0 +1,20 @@
+{
+  "tests": "PASS",
+  "hardware_tested": false,
+  "elf_sha256": "84f7f4f096f0f93d9989708025b7fa0ecfb4679d35a1944a08f99af9d8c41e0c",
+  "animation_frames_compared": 222,
+  "workspace_bytes": 122408,
+  "static_ram_gap": 3324,
+  "checks": [
+    "full animation loop",
+    "WAV EOF loop",
+    "pause/resume",
+    "volume restore",
+    "next track",
+    "missing/corrupt media exit",
+    "no writes",
+    "closed LCD before SD",
+    "workspace canary",
+    "hidden home entry"
+  ]
+}

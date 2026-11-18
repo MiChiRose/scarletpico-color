@@ -1,0 +1,12 @@
+{
+  "firmware": "3.6.3",
+  "elf_sha256": "84f7f4f096f0f93d9989708025b7fa0ecfb4679d35a1944a08f99af9d8c41e0c",
+  "resolution": [
+    480,
+    320
+  ],
+  "physical_capture": false,
+  "method": "ARM Cortex-M33 emulation; actual UI routines and RGB565 assets; simulated LCD/SD/battery/input",
+  "fixtures": "Example ROM filenames only; no game code or saves. Battery input 3.95 V.",
+  "art": "Game cover excerpts shown inside UI; Christmas scene by Lofi Girl / Studio Lofi Girl, https://studio.lofigirl.com/projects/christmas-lofi-2024"
+}
