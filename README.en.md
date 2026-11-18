@@ -2,7 +2,7 @@
 <p align="center"><a href="README.md">Русский</a> · <b>English</b></p>
 <p align="center"><b>A small handheld. A big collection. One more game.</b><br>DIY Game Boy / Game Boy Color handheld, powered by RP2350.</p>
 <p align="center">
-  <a href="firmware/releases/2026-11-18-rp2350-lofi-entry-guard/ScarletPico-v3_6_3-RP2350.uf2"><b>Download 3.6.3 UF2</b></a> ·
+  <a href="firmware/releases/2026-11-18-rp2350-3.6.3/ScarletPico-v3_6_3-RP2350.uf2"><b>Download 3.6.3 UF2</b></a> ·
   <a href="#install">Install</a> · <a href="#controls">Controls</a> · <a href="docs/USAGE.md">Detailed guide (RU)</a>
 </p>
 
@@ -17,7 +17,7 @@ performance vary by game — there is no universal 60 FPS promise.
 
 <table>
   <tr><td><img src="docs/assets/ui-3.6.3/home.png" alt="Home with Games, Settings, Themes and Continue" width="480"><br><b>A clear home screen</b></td><td><img src="docs/assets/ui-3.6.3/covers.png" alt="Cover library" width="480"><br><b>Your collection, with cover art</b></td></tr>
-  <tr><td><img src="docs/assets/ui-3.6.3/themes.png" alt="Scarlet, Ice and DMG themes" width="480"><br><b>Make it yours</b></td><td><img src="docs/assets/ui-3.6.3/lofi.png" alt="Lofi Radio with a Christmas scene" width="480"><br><b>Take a music break</b></td></tr>
+  <tr><td><img src="docs/assets/ui-3.6.3/themes.png" alt="Scarlet, Ice and DMG themes" width="480"><br><b>Make it yours</b></td><td><img src="docs/assets/ui-3.6.3/settings.png" alt="Language, sound, brightness and power settings" width="480"><br><b>Set it up your way</b></td></tr>
 </table>
 
 These are **480 × 320 software captures of the actual 3.6.3 ARM UI code**,
@@ -34,7 +34,6 @@ Russian; the firmware also has an English interface.
 - Volume, brightness, idle timers, screensavers, screen sleep and confirmed software restart.
 - Rounded battery indicator, voltage display and sustained low-voltage warning with a chime.
 - Offline-safe menus: settings and built-in themes remain usable without microSD.
-- Hidden **Lofi Radio**: local PCM WAV music and prepared animated scenes, no network required.
 
 ## Controls
 
@@ -50,20 +49,6 @@ Russian; the firmware also has an English interface.
 To pin a game: select it → **Start → Favorite → Yes**. It moves to the top of
 the main library and also appears in **Games → Favorites**.
 
-### Lofi Radio
-
-Put **PCM WAV, 32 kHz, signed 16-bit stereo** in `/lofiplayer/music`, then hold
-**Select for 1.5 seconds on Home**. In 3.6.3, an absent card or no nonempty WAV
-files means the shortcut silently does nothing. WAV contents are validated
-on playback; an extension alone does not guarantee a supported file.
-
-- **A / Start:** pause/resume on release. **Left / Right:** track. **Up / Down:** volume.
-- Hold **A + Left / Right:** animated scene. **B:** show/hide help.
-- Hold **Select + Start:** exit.
-
-Scenes use `.lfi` files in `/lofiplayer/animation`, not raw GIF files. Music,
-ROMs and the media pack are **not included** in the UF2 or this repository update.
-
 ## Install
 
 **3.6.3 is built and software-tested, but has not yet been flashed or tested
@@ -73,7 +58,7 @@ and console wiring; it is not a generic RP2350 image.
 1. Turn off the console and disconnect its battery-derived supply before USB.
 2. Hold **BOOT / BOOTSEL** and connect a data-capable USB cable to the board's
    native USB-C. Release when the **RP2350** boot volume appears.
-3. Copy [the UF2](firmware/releases/2026-11-18-rp2350-lofi-entry-guard/ScarletPico-v3_6_3-RP2350.uf2)
+3. Copy [the UF2](firmware/releases/2026-11-18-rp2350-3.6.3/ScarletPico-v3_6_3-RP2350.uf2)
    to that boot volume, **not to microSD**. The board reboots after copying.
 4. Disconnect USB before restoring the console supply. Insert microSD while
    powered off. Do not reformat a working card to update the firmware.
@@ -92,7 +77,7 @@ Do not connect USB power and the console's other 5 V source together without
 a verified power-selection/isolation circuit.
 
 [Full flashing guide (RU)](docs/FLASHING.md) ·
-[Release notes and test evidence (RU)](firmware/releases/2026-11-18-rp2350-lofi-entry-guard/README-RU.md)
+[Release notes and test evidence (RU)](firmware/releases/2026-11-18-rp2350-3.6.3/README-RU.md)
 
 ## Hardware and project history
 
@@ -110,9 +95,10 @@ is preserved; it is not a rollback image for RP2350.
 
 ---
 
-Independent hobby project; not affiliated with Nintendo or Lofi Girl.
+Independent hobby project; not affiliated with Nintendo.
 Cover art, characters and trademarks belong to their respective owners.
-The Christmas scene shown in the UI is by **Lofi Girl / Studio Lofi Girl**.
 UI icons: **Lucide**, ISC license. Third-party emulator attribution and
 licenses remain in the source tree. No ROMs, saves, music recordings or full
 third-party animations are published. [Image provenance](docs/assets/README.md).
+Only add user media when you have the necessary rights or permission.
+Online availability and attribution alone do not grant redistribution rights.
